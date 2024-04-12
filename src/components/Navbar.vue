@@ -17,7 +17,7 @@
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Drinks' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Drinks' }" class="btn text-goldyslightbrown lighten-30 selectable text-uppercase">
             Drinks
           </router-link>
         </li>
