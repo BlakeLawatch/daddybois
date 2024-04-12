@@ -11,7 +11,6 @@
 
 export default {
   setup() {
-    // Aos.init();
     return {
 
     }
