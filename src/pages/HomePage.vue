@@ -1,7 +1,7 @@
 <template>
   <template>
     <div class="component">
-      <h1>penis</h1>
+
 
     </div>
   </template>
@@ -23,15 +23,6 @@
   </style>
 </template>
 
-<script>
-export default {
-  setup() {
-    return {
-
-    }
-  }
-}
-</script>
 
 <style scoped lang="scss">
 .home {
