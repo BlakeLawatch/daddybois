@@ -1,6 +1,6 @@
 <template>
   <div class="component">
-
+    Contact us, fool
 
   </div>
 </template>

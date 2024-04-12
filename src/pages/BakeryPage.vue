@@ -1,7 +1,6 @@
 <template>
   <div class="component">
-
-
+    Dis Is Da Blakery
   </div>
 </template>
 

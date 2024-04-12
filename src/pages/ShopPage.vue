@@ -1,7 +1,6 @@
 <template>
   <div class="component">
-
-
+    Buy Our Shit
   </div>
 </template>
 
