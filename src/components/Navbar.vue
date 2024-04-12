@@ -27,12 +27,12 @@
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Night Menu' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'NightMenu' }" class="btn text-success lighten-30 selectable text-uppercase">
             Night Menu
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Contact Us' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Contact' }" class="btn text-success lighten-30 selectable text-uppercase">
             Contact Us
           </router-link>
         </li>

@@ -12,15 +12,29 @@ const routes = [
     component: loadPage('HomePage')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: loadPage('AboutPage')
+    path: '/bakery',
+    name: 'Bakery',
+    component: loadPage('BakeryPage')
   },
   {
-    path: '/account',
-    name: 'Account',
-    component: loadPage('AccountPage'),
-    beforeEnter: authGuard
+    path: '/drinks',
+    name: 'Drinks',
+    component: loadPage('DrinksPage')
+  },
+  {
+    path: '/shop',
+    name: 'Shop',
+    component: loadPage('ShopPage')
+  },
+  {
+    path: '/nightmenu',
+    name: 'NightMenu',
+    component: loadPage('NightMenuPage'),
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: loadPage('ContactPage'),
   }
 ]
 
