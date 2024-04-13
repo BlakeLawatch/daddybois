@@ -37,7 +37,7 @@ export default {
 
 <style scoped lang="scss">
 .background-image {
-  background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper.png');
+  background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper3.png');
   background-size: cover;
   background-position: center;
 }

@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark px-3 bg-img">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" height="45" />
+      <div class="logo d-flex flex-column align-items-center position-relative">
+        <img alt="logo" class="" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" height="180" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -71,6 +71,10 @@ export default {
   background-image: url(src/assets/img/Header-Gradient.png);
   background-position: center;
   background-size: contain;
+}
+
+.logo {
+  margin-top: 120px;
 }
 
 a:hover {
