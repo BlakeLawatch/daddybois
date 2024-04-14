@@ -10,30 +10,38 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img alt="logo" src="src/assets/img/IMG-2964 1.png" class="img-fluid" />
+          <div class="slideshowContent slideshowContent" style="max-width:500px">
+            <img v-for="(image, index) in images" :key="index" :src="image.src" style="width:100%"
+              :style="{ display: imageIndex === index ? 'block' : 'none' }">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-
 <script>
-
-
-
-
-
 export default {
-  setup() {
+  data() {
     return {
-
-    }
-      ;
+      imageIndex: 0,
+      images: [
+        { src: "src/assets/img/coffee.png" },
+        { src: "src/assets/img/food.png" },
+        { src: "src/assets/img/drinks.png" }
+      ]
+    };
   },
-}
+  mounted() {
+    setInterval(this.nextImage, 4000);
+  },
+  methods: {
+    nextImage() {
+      this.imageIndex = (this.imageIndex + 1) % this.images.length;
+    }
+  }
+};
 </script>
-
 
 <style scoped lang="scss">
 .background-image {
