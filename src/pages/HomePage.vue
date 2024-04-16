@@ -26,6 +26,8 @@
 </template>
 
 <script>
+import { Transition } from 'vue';
+
 export default {
   data() {
     return {
@@ -35,6 +37,7 @@ export default {
         { src: "src/assets/img/food.png" },
         { src: "src/assets/img/drinks.png" }
       ],
+      Transition,
       textIndex: 0,
       texts: [
         "butt",
