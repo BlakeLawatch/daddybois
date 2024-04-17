@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+  <div class="background-image vh-100 gallery">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 d-flex flex-wrap justify-content-center py-5">
@@ -50,6 +50,12 @@ export default {
 
 
 <style lang="scss" scoped>
+.background-image {
+  background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper3.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .max-height {
   max-height: 25vh;
   max-width: 20vh;
