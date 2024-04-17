@@ -40,7 +40,7 @@ export default {
       Transition,
       textIndex: 0,
       texts: [
-        "butt",
+        "butts",
         "weiner",
         "boobs"
       ]
