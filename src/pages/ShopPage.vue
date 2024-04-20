@@ -1,5 +1,5 @@
 <template>
-  <div class="background-image vh-100 gallery">
+  <!-- <div class="background-image vh-100 gallery">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 d-flex flex-wrap justify-content-center py-5">
@@ -14,38 +14,92 @@
     <div v-if="enlargedImageIndex !== -1" class="enlarged" @click="enlargeImage(-1)">
       <img :src="images[enlargedImageIndex].src" :alt="images[enlargedImageIndex].alt" />
     </div>
+  </div> -->
+  <div class="background-image vh-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item-card bg-success">
+            <img src="src/assets/img/ShopImages/image 3.png" alt="item Image">
+            <h2 class="item-title text-white">16oz Mug (Orange)</h2>
+            <p class="item-price">$19.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item-card bg-success">
+            <img src="src/assets/img/ShopImages/image 4.png" alt="item Image">
+            <h2 class="item-title text-white">12oz Mug (Clear)</h2>
+            <p class="item-price">$24.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item-card bg-success">
+            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+            <p class="item-price">$14.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item-card bg-success">
+            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+            <p class="item-price">$14.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item-card bg-success">
+            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+            <p class="item-price">$14.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item-card bg-success">
+            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+            <p class="item-price">$14.99</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 
 <script>
-import { AppState } from '../AppState';
-import { computed, reactive, onMounted } from 'vue';
-export default {
-  data() {
-    return {
-      enlargedImageIndex: -1,
-      images: [
-        { src: "src/assets/img/ShopImages/image 3.png" },
-        { src: "src/assets/img/ShopImages/image 4.png" },
-        { src: "src/assets/img/ShopImages/image 5.png" },
-        { src: "src/assets/img/ShopImages/IMG-2732 1.png" },
-        { src: "src/assets/img/ShopImages/IMG-2733 1.png" },
-        { src: "src/assets/img/ShopImages/IMG-2734 1.png" },
-        { src: "src/assets/img/ShopImages/IMG-2734 2.png" },
-        { src: "src/assets/img/ShopImages/IMG-2734 3.png" },
-        { src: "src/assets/img/ShopImages/IMG-2734 4.png" },
-        { src: "src/assets/img/ShopImages/IMG-2735 1.png" },
-      ],
-    };
-  },
-  methods: {
-    enlargeImage(index) {
-      this.enlargedImageIndex = index;
+// import { AppState } from '../AppState';
+// import { computed, reactive, onMounted } from 'vue';
+// export default {
+//   data() {
+//     return {
+//       enlargedImageIndex: -1,
+//       images: [
+//         { src: "src/assets/img/ShopImages/image 3.png" },
+//         { src: "src/assets/img/ShopImages/image 4.png" },
+//         { src: "src/assets/img/ShopImages/image 5.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2732 1.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2733 1.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2734 1.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2734 2.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2734 3.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2734 4.png" },
+//         { src: "src/assets/img/ShopImages/IMG-2735 1.png" },
+//       ],
+//     };
+//   },
+//   methods: {
+//     enlargeImage(index) {
+//       this.enlargedImageIndex = index;
 
-    }
-  }
-};
+//     }
+//   }
+// };
 </script>
 
 
@@ -56,58 +110,78 @@ export default {
   background-position: center;
 }
 
-.max-height {
-  max-height: 25vh;
-  max-width: 20vh;
-  height: 25vh;
-  width: 100%;
-  margin-right: 25px;
-  filter: drop-shadow(1rem 1rem 10px rgba(255, 255, 255, 0.23));
-  transition: transform 0.3s ease-in-out;
+.item-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.max-height:hover {
-  transform: scale(1.1);
+.item-card img {
+  max-width: 300px;
+  max-height: 300px;
+  height: auto;
 }
 
-.enlarged {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.604);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  // border: 10px solid rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
+.item-title {
+  font-weight: bold;
 }
 
-.enlarged img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 15px;
-  filter: drop-shadow(0rem 0rem 15px #0a0a0a);
-
+.item-price {
+  color: #ffffff;
 }
 
-.img-fluid {
-  border-radius: 15px;
-}
+// .max-height {
+//   max-height: 25vh;
+//   max-width: 20vh;
+//   height: 25vh;
+//   width: 100%;
+//   margin-right: 25px;
+//   filter: drop-shadow(1rem 1rem 10px rgba(255, 255, 255, 0.23));
+//   transition: transform 0.3s ease-in-out;
+// }
 
-.img-fluid:hover {
-  margin-right: 25px;
-  filter: drop-shadow(1rem 1rem 10px rgba(0, 0, 0, 0.641));
-}
+// .max-height:hover {
+//   transform: scale(1.1);
+// }
 
-.gallery {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: #816E5E;
-}
-</style>
+// .enlarged {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   background: rgba(0, 0, 0, 0.604);
+//   border-radius: 16px;
+//   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+//   backdrop-filter: blur(5px);
+//   -webkit-backdrop-filter: blur(5px);
+//   // border: 10px solid rgba(0, 0, 0, 0.3);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   z-index: 999;
+// }
+
+// .enlarged img {
+//   max-width: 90%;
+//   max-height: 90%;
+//   border-radius: 15px;
+//   filter: drop-shadow(0rem 0rem 15px #0a0a0a);
+
+// }
+
+// .img-fluid {
+//   border-radius: 15px;
+// }
+
+// .img-fluid:hover {
+//   margin-right: 25px;
+//   filter: drop-shadow(1rem 1rem 10px rgba(0, 0, 0, 0.641));
+// }
+
+// .gallery {
+//   overflow-x: hidden;
+//   overflow-y: hidden;
+//   background-color: #816E5E;
+// }</style>
