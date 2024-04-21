@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark px-3 bg-img">
+  <nav class="navbar navbar-expand-sm navbar-dark px-3 bg-img py-4">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="logo d-flex flex-column align-items-center position-relative">
         <img alt="logo" class="" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" height="180" />

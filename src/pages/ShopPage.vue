@@ -15,10 +15,10 @@
       <img :src="images[enlargedImageIndex].src" :alt="images[enlargedImageIndex].alt" />
     </div>
   </div> -->
-  <div class="background-image vh-100">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
+  <div class="background-image">
+    <div class="container-fluid">
+      <div class="row justify-content-around top-page">
+        <div class="col-md-3">
           <div class="item-card bg-success">
             <img src="src/assets/img/ShopImages/image 3.png" alt="item Image">
             <h2 class="item-title text-white">16oz Mug (Orange)</h2>
@@ -26,7 +26,7 @@
             <button class="btn btn-primary">Add to Cart</button>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="item-card bg-success">
             <img src="src/assets/img/ShopImages/image 4.png" alt="item Image">
             <h2 class="item-title text-white">12oz Mug (Clear)</h2>
@@ -34,7 +34,7 @@
             <button class="btn btn-primary">Add to Cart</button>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="item-card bg-success">
             <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
             <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
@@ -42,29 +42,32 @@
             <button class="btn btn-primary">Add to Cart</button>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="item-card bg-success">
-            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
-            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
-            <p class="item-price">$14.99</p>
-            <button class="btn btn-primary">Add to Cart</button>
+        <div class="row justify-content-around">
+          <div class="col-md-3">
+            <div class="item-card bg-success">
+              <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+              <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+              <p class="item-price">$14.99</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="item-card bg-success">
-            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
-            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
-            <p class="item-price">$14.99</p>
-            <button class="btn btn-primary">Add to Cart</button>
+          <div class="col-md-3">
+            <div class="item-card bg-success">
+              <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+              <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+              <p class="item-price">$14.99</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="item-card bg-success">
-            <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
-            <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
-            <p class="item-price">$14.99</p>
-            <button class="btn btn-primary">Add to Cart</button>
+          <div class="col-md-3">
+            <div class="item-card bg-success">
+              <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
+              <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
+              <p class="item-price">$14.99</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -108,6 +111,10 @@
   background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper3.png');
   background-size: cover;
   background-position: center;
+}
+
+.top-page {
+  margin-top: 20vh;
 }
 
 .item-card {
