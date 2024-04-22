@@ -15,10 +15,10 @@
       <img :src="images[enlargedImageIndex].src" :alt="images[enlargedImageIndex].alt" />
     </div>
   </div> -->
-  <div class="background-image">
+  <div class="background-image top-page">
     <div class="container-fluid">
-      <div class="row justify-content-around top-page">
-        <div class="col-md-3">
+      <div class="row justify-content-around">
+        <div class="col-12 col-md-3">
           <div class="item-card bg-success">
             <img src="src/assets/img/ShopImages/image 3.png" alt="item Image">
             <h2 class="item-title text-white">16oz Mug (Orange)</h2>
@@ -26,7 +26,7 @@
             <button class="btn btn-primary">Add to Cart</button>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-12 col-md-3">
           <div class="item-card bg-success">
             <img src="src/assets/img/ShopImages/image 4.png" alt="item Image">
             <h2 class="item-title text-white">12oz Mug (Clear)</h2>
@@ -34,7 +34,7 @@
             <button class="btn btn-primary">Add to Cart</button>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-12 col-md-3">
           <div class="item-card bg-success">
             <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
             <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="row justify-content-around">
-          <div class="col-md-3">
+          <div class="col-12 col-md-3">
             <div class="item-card bg-success">
               <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
               <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
@@ -51,7 +51,7 @@
               <button class="btn btn-primary">Add to Cart</button>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-12 col-md-3">
             <div class="item-card bg-success">
               <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
               <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
@@ -59,7 +59,7 @@
               <button class="btn btn-primary">Add to Cart</button>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-12 col-md-3">
             <div class="item-card bg-success">
               <img src="src/assets/img/ShopImages/IMG-2732 1.png" alt="item Image">
               <h2 class="item-title text-white">16oz Mug (Grey/Orange)</h2>
@@ -114,7 +114,7 @@
 }
 
 .top-page {
-  margin-top: 20vh;
+  padding-top: 20vh;
 }
 
 .item-card {
