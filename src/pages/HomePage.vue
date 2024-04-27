@@ -15,7 +15,7 @@
           </div> -->
         </div>
         <div class="col-md-6">
-          <div class="slideshowContent slideshowContent" style="max-width:500px">
+          <div class="slideshowContent" style="max-width:500px">
             <img v-for="(image, index) in images" :key="index" :src="image.src" style="width:100%"
               :style="{ display: imageIndex === index ? 'block' : 'none' }">
           </div>
@@ -26,7 +26,6 @@
 </template>
 
 <script>
-import { Transition } from 'vue';
 
 export default {
   data() {
@@ -37,7 +36,6 @@ export default {
         { src: "src/assets/img/food.png" },
         { src: "src/assets/img/drinks.png" }
       ],
-      Transition,
       textIndex: 0,
       texts: [
         "butts",
@@ -47,8 +45,8 @@ export default {
     };
   },
   mounted() {
-    setInterval(this.nextImage, 4000);
-    setInterval(this.nextText, 4000)
+    setInterval(this.nextImage, 3000);
+    setInterval(this.nextText, 3000)
   },
   methods: {
     nextImage() {
@@ -71,4 +69,7 @@ export default {
 .text {
   max-width: 400px;
 }
+
+
+;
 </style>
