@@ -38,7 +38,7 @@ export default {
       ],
       textIndex: 0,
       texts: [
-        "butts",
+        "Butts",
         "weiner",
         "boobs"
       ]

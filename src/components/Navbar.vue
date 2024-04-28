@@ -37,7 +37,6 @@
           </router-link>
         </li>
       </ul>
-
     </div>
   </nav>
 </template>
