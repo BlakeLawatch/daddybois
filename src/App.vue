@@ -37,4 +37,14 @@ footer {
   place-content: center;
   height: 32px;
 }
+
+.background-image {
+  background-image: url('src/assets/img/ParchmentPaper3.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.top-page {
+  padding-top: 20vh;
+}
 </style>

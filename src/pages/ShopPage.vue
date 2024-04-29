@@ -107,16 +107,6 @@
 
 
 <style lang="scss" scoped>
-.background-image {
-  background-image: url('src/assets/img/ParchmentPaper3.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.top-page {
-  padding-top: 20vh;
-}
-
 .item-card {
   border: 1px solid #ddd;
   border-radius: 5px;
