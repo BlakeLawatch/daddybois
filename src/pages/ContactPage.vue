@@ -5,20 +5,21 @@
 
       </div>
       <div class="col-12 col-md-5">
-        <form method="post">
+        <form method="post" action="https://formspree.io/f/xyyroezw">
           <div class="col-12 d-flex justify-content-between">
             <div class="col-5">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control rounded" id="name" aria-describedby="emailHelp" required
+                <input type="text" class="form-control rounded" name="name" id="name" aria-describedby="name" required
                   minlength="5" maxlength="25">
               </div>
             </div>
             <div class="col-6">
               <div class="mb-3">
                 <label for="subject" class="form-label">Subject</label>
-                <select name="subject" id="subject" class="w-100 py-1 rounded">
-                  <option :value="subjects" v-for="subject in subjects" :key="subject">{{ subject }}</option>
+                <select id="subject" class="w-100 py-1 rounded">
+                  <option name="subject" :value="subjects" v-for="subject in subjects" :key="subject">{{ subject }}
+                  </option>
                 </select>
               </div>
             </div>
@@ -27,8 +28,8 @@
             <!-- "form-check" was in the class on the email label line below. Made it look weird, took it out, don't know what it was for. If it doesn't work, that probably needs to go back" -->
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control rounded" id="email" aria-describedby="emailHelp" required
-                maxlength="50">
+              <input type="email" class="form-control rounded" name="email" id="email" aria-describedby="emailHelp"
+                required maxlength="50">
             </div>
             <div class="mb-3">
               <label for="description" class="form-label">Description</label>
@@ -47,25 +48,26 @@
 
 
 <script>
-import { AppState } from '../AppState';
-import { computed, reactive, onMounted, ref } from 'vue';
+import { ref } from 'vue';
 import Pop from '../utils/Pop';
+
 export default {
   setup() {
     const subjects = ["Catering", "Jobs", "Art", "Other"]
-    const editable = ref({})
+    // const editable = ref({})
     return {
       subjects,
+      // editable,
 
-      async sendEmail() {
-        try {
-          editable.value = {}
-          Pop.success("Email Sent")
-        }
-        catch (error) {
-          Pop.error("Email didn't send, please try again");
-        }
-      }
+      // async sendEmail() {
+      //   try {
+      //     editable.value = {}
+      //     Pop.success("Email Sent")
+      //   }
+      //   catch (error) {
+      //     Pop.error("Email didn't send, please try again");
+      //   }
+      // }
     }
   }
 };
