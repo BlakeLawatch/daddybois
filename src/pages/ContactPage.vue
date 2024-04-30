@@ -2,7 +2,9 @@
   <div class="container-fluid background-image vh-100">
     <section class="row top-page">
       <div class="col-12 col-md-7">
-
+        <h1 class="frijole">Catering Hours Links</h1>
+        <h1 class="candy">Catering Hours Links</h1>
+        <h1 class="penny">Catering Hours Links</h1>
       </div>
       <div class="col-12 col-md-5">
         <form method="post" action="https://formspree.io/f/xyyroezw">
