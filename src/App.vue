@@ -26,9 +26,9 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
-@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Frijole&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Frijole&family=Henny+Penny&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Frijole&family=Henny+Penny&family=Lily+Script+One&display=swap');
+
 
 :root {
   --main-height: calc(100vh - 32px - 64px);
@@ -45,6 +45,7 @@ footer {
   background-image: url('src/assets/img/ParchmentPaper3.png');
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
 .top-page {
@@ -57,11 +58,12 @@ footer {
   font-style: normal;
 }
 
-.candy {
-  font-family: "Emilys Candy", serif;
+.lily {
+  font-family: "Lily Script One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 
 .penny {
   font-family: "Henny Penny", system-ui;
