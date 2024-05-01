@@ -1,10 +1,18 @@
 <template>
   <div class="container-fluid background-image vh-100">
     <section class="row top-page">
-      <div class="col-12 col-md-7">
+      <div class="col-12 col-md-6 ps-4">
         <h1 class="frijole">Catering Hours Links</h1>
+        <h5>If you’re looking for treats to bring to your next function or event, look no further! Send
+          us a message, let
+          us know what you’re thinking, and we can work together to get you exactly what you need!</h5>
         <h1 class="candy">Catering Hours Links</h1>
+        <h5>M-F 6:30am - 9:00pm</h5>
+        <h5>Sat 7:00am-9:00pm</h5>
+        <h5>Sun 7:00am-7:00pm</h5>
         <h1 class="penny">Catering Hours Links</h1>
+        <p><a class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys Breakfast Bistro</a></p>
+        <p><a class="link" href="https://dawsontaylor.com/">Dawson Taylor</a></p>
       </div>
       <div class="col-12 col-md-5">
         <form method="post" action="https://formspree.io/f/xyyroezw">
@@ -76,4 +84,15 @@ export default {
 </script>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.link {
+  color: black;
+  font-size: 24px;
+}
+
+.link:hover {
+  color: #824020;
+  font-size: 26px;
+  transition: ease-in-out .5s;
+}
+</style>
