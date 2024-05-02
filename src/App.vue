@@ -27,8 +27,7 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Frijole&family=Henny+Penny&family=Lily+Script+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Emilys+Candy&family=Frijole&family=Henny+Penny&family=Lily+Script+One&family=Rhodium+Libre&display=swap');
 
 :root {
   --main-height: calc(100vh - 32px - 64px);
@@ -51,21 +50,16 @@ footer {
   padding-top: 20vh;
 }
 
-.frijole {
-  font-family: "Frijole", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lily {
-  font-family: "Lily Script One", system-ui;
+.rhodium {
+  font-family: "Rhodium Libre", serif;
   font-weight: 400;
   font-style: normal;
 }
 
 
-.penny {
-  font-family: "Henny Penny", system-ui;
+.arima {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }

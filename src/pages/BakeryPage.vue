@@ -11,14 +11,14 @@
     </section>
     <section class="row mt-5 text-center">
       <div class="col-4">
-        <h3>Muffins ...$3.25</h3>
+        <h3 class="arima fw-bold">Muffins ...$3.25</h3>
         <p>Blueberry</p>
         <p>Date Bran</p>
         <p>Apple Walnut</p>
         <p>Bread Pudding</p>
       </div>
       <div class="col-4">
-        <h3>Savory</h3>
+        <h3 class="arima fw-bold">Savory</h3>
         <p>Denver Quiche ...$5.75</p>
         <p>Goat Cheese Quiche ...$5.75</p>
         <p>Bacon Casserole ...$7.75</p>
@@ -36,7 +36,7 @@
         <p>Banana</p>
       </div>
     </section>
-    <section class="row text-center pt-5">
+    <section class="row text-center py-5">
       <div class="col-4">
         <h3>Scones ...$4.25</h3>
         <p>Blueberry-lemon</p>

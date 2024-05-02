@@ -2,15 +2,15 @@
   <div class="container-fluid background-image">
     <section class="row top-page">
       <div class="col-12 col-md-6 ps-4">
-        <h1 class="frijole">Catering Hours Links</h1>
+        <h1 class="rhodium">Catering Hours Links</h1>
         <h5>If you’re looking for treats to bring to your next function or event, look no further! Send
           us a message, let
           us know what you’re thinking, and we can work together to get you exactly what you need!</h5>
-        <h1 class="lily">Catering Hours Links</h1>
+        <h1>Catering Hours Links</h1>
         <h5>M-F 6:30am - 9:00pm</h5>
         <h5>Sat 7:00am-9:00pm</h5>
         <h5>Sun 7:00am-7:00pm</h5>
-        <h1 class="penny">Catering Hours Links</h1>
+        <h1 class="arima">Catering Hours Links</h1>
         <p><a target="_blank" class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys Breakfast
             Bistro</a></p>
         <p><a target="_blank" class="link" href="https://dawsontaylor.com/">Dawson Taylor</a></p>
