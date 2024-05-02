@@ -11,8 +11,9 @@
         <h5>Sat 7:00am-9:00pm</h5>
         <h5>Sun 7:00am-7:00pm</h5>
         <h1 class="penny">Catering Hours Links</h1>
-        <p><a class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys Breakfast Bistro</a></p>
-        <p><a class="link" href="https://dawsontaylor.com/">Dawson Taylor</a></p>
+        <p><a target="_blank" class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys Breakfast
+            Bistro</a></p>
+        <p><a target="_blank" class="link" href="https://dawsontaylor.com/">Dawson Taylor</a></p>
       </div>
       <div class="col-12 col-md-5">
         <form method="post" action="https://formspree.io/f/xyyroezw">

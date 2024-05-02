@@ -9,15 +9,59 @@
 
       </div>
     </section>
-    <section class="row mt-5">
+    <section class="row mt-5 text-center">
       <div class="col-4">
-        <h3 class="text-center">Muffins...$3.25</h3>
+        <h3>Muffins ...$3.25</h3>
+        <p>Blueberry</p>
+        <p>Date Bran</p>
+        <p>Apple Walnut</p>
+        <p>Bread Pudding</p>
       </div>
       <div class="col-4">
-        <h3 class="text-center">Savory</h3>
+        <h3>Savory</h3>
+        <p>Denver Quiche ...$5.75</p>
+        <p>Goat Cheese Quiche ...$5.75</p>
+        <p>Bacon Casserole ...$7.75</p>
+        <p>Veggie Casserole ...$7.75</p>
+        <p>Chicken Pot Pie ...$7.00</p>
+        <p>Bacon Sandwich ...$5.50</p>
+        <p>Veggie Sandwich ...$5.50</p>
+        <p>Breakfast Burritos ...$7.95</p>
       </div>
       <div class="col-4">
-        <h3>Cookies...$1.75</h3>
+        <h3>Breads ...$3.50</h3>
+        <p>Lemon</p>
+        <p>Chocolate Zucchini</p>
+        <p>Pumpkin</p>
+        <p>Banana</p>
+      </div>
+    </section>
+    <section class="row text-center pt-5">
+      <div class="col-4">
+        <h3>Scones ...$4.25</h3>
+        <p>Blueberry-lemon</p>
+        <p>Raspberry-White Chocolate</p>
+        <p>Pumpkin-Maple</p>
+        <p>Snickerdoodle</p>
+      </div>
+      <div class="col-4">
+        <h3>Cookies ...$1.75</h3>
+        <p>Chocolate Chip</p>
+        <p>Coconut Macaroon</p>
+        <p>Peanut Butter</p>
+      </div>
+      <div class="col-4">
+        <h3>Misc</h3>
+        <p>Cinnamon Roll ...$5.75</p>
+        <p>Caramel Roll ...$6.00</p>
+        <p>Coffee Cake ...$4.75</p>
+        <p>Fruit Parfait ...$5.50</p>
+        <p>Carrot Cake ...$3.50</p>
+        <!-- Cinnamon Rolls ...$5.75
+Caramel Rolls ...$6.00
+Coffee Cake ...$4.75
+Fruit Parfait ...$5.50
+Carrot Cake ...$3.50 -->
       </div>
     </section>
   </div>
@@ -35,4 +79,8 @@ export default {
 </script>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+p {
+  margin-bottom: 0;
+}
+</style>

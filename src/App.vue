@@ -45,7 +45,6 @@ footer {
   background-image: url('src/assets/img/ParchmentPaper3.png');
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 
 .top-page {
