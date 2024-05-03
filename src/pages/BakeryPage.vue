@@ -12,51 +12,51 @@
     <section class="row mt-5 text-center">
       <div class="col-4">
         <h3 class="arima fw-bold">Muffins ...$3.25</h3>
-        <p>Blueberry</p>
-        <p>Date Bran</p>
-        <p>Apple Walnut</p>
-        <p>Bread Pudding</p>
+        <p class="arima">Blueberry</p>
+        <p class="arima">Date Bran</p>
+        <p class="arima">Apple Walnut</p>
+        <p class="arima">Bread Pudding</p>
       </div>
       <div class="col-4">
         <h3 class="arima fw-bold">Savory</h3>
-        <p>Denver Quiche ...$5.75</p>
-        <p>Goat Cheese Quiche ...$5.75</p>
-        <p>Bacon Casserole ...$7.75</p>
-        <p>Veggie Casserole ...$7.75</p>
-        <p>Chicken Pot Pie ...$7.00</p>
-        <p>Bacon Sandwich ...$5.50</p>
-        <p>Veggie Sandwich ...$5.50</p>
-        <p>Breakfast Burritos ...$7.95</p>
+        <p class="arima">Denver Quiche ...$5.75</p>
+        <p class="arima">Goat Cheese Quiche ...$5.75</p>
+        <p class="arima">Bacon Casserole ...$7.75</p>
+        <p class="arima">Veggie Casserole ...$7.75</p>
+        <p class="arima">Chicken Pot Pie ...$7.00</p>
+        <p class="arima">Bacon Sandwich ...$5.50</p>
+        <p class="arima">Veggie Sandwich ...$5.50</p>
+        <p class="arima">Breakfast Burritos ...$7.95</p>
       </div>
       <div class="col-4">
-        <h3>Breads ...$3.50</h3>
-        <p>Lemon</p>
-        <p>Chocolate Zucchini</p>
-        <p>Pumpkin</p>
-        <p>Banana</p>
+        <h3 class="arima fw-bold">Breads ...$3.50</h3>
+        <p class="arima">Lemon</p>
+        <p class="arima">Chocolate Zucchini</p>
+        <p class="arima">Pumpkin</p>
+        <p class="arima">Banana</p>
       </div>
     </section>
     <section class="row text-center py-5">
       <div class="col-4">
-        <h3>Scones ...$4.25</h3>
-        <p>Blueberry-lemon</p>
-        <p>Raspberry-White Chocolate</p>
-        <p>Pumpkin-Maple</p>
-        <p>Snickerdoodle</p>
+        <h3 class="arima fw-bold">Scones ...$4.25</h3>
+        <p class="arima">Blueberry-lemon</p>
+        <p class="arima">Raspberry-White Chocolate</p>
+        <p class="arima">Pumpkin-Maple Glaze</p>
+        <p class="arima">Snickerdoodle</p>
       </div>
       <div class="col-4">
-        <h3>Cookies ...$1.75</h3>
-        <p>Chocolate Chip</p>
-        <p>Coconut Macaroon</p>
-        <p>Peanut Butter</p>
+        <h3 class="arima fw-bold">Cookies ...$1.75</h3>
+        <p class="arima">Chocolate Chip</p>
+        <p class="arima">Coconut Macaroon</p>
+        <p class="arima">Peanut Butter</p>
       </div>
       <div class="col-4">
-        <h3>Misc</h3>
-        <p>Cinnamon Roll ...$5.75</p>
-        <p>Caramel Roll ...$6.00</p>
-        <p>Coffee Cake ...$4.75</p>
-        <p>Fruit Parfait ...$5.50</p>
-        <p>Carrot Cake ...$3.50</p>
+        <h3 class="arima fw-bold">Misc</h3>
+        <p class="arima">Cinnamon Roll ...$5.75</p>
+        <p class="arima">Caramel Roll ...$6.00</p>
+        <p class="arima">Coffee Cake ...$4.75</p>
+        <p class="arima">Fruit Parfait ...$5.50</p>
+        <p class="arima">Carrot Cake ...$3.50</p>
         <!-- Cinnamon Rolls ...$5.75
 Caramel Rolls ...$6.00
 Coffee Cake ...$4.75
@@ -69,11 +69,10 @@ Carrot Cake ...$3.50 -->
 
 
 <script>
-import { AppState } from '../AppState';
-import { computed, reactive, onMounted } from 'vue';
 export default {
   setup() {
-    return {}
+    return {
+    }
   }
 };
 </script>
@@ -82,5 +81,7 @@ export default {
 <style lang="scss" scoped>
 p {
   margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 550;
 }
 </style>
