@@ -57,11 +57,6 @@
         <p class="arima">Coffee Cake ...$4.75</p>
         <p class="arima">Fruit Parfait ...$5.50</p>
         <p class="arima">Carrot Cake ...$3.50</p>
-        <!-- Cinnamon Rolls ...$5.75
-Caramel Rolls ...$6.00
-Coffee Cake ...$4.75
-Fruit Parfait ...$5.50
-Carrot Cake ...$3.50 -->
       </div>
     </section>
   </div>
@@ -69,9 +64,12 @@ Carrot Cake ...$3.50 -->
 
 
 <script>
+
 export default {
   setup() {
+
     return {
+
     }
   }
 };
