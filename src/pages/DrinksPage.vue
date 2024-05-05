@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid background-image">
     <section class="row top-page">
       <div class="col-5">
         <img class="img-fluid" src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
