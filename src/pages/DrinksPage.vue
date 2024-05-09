@@ -32,12 +32,11 @@ export default {
 
 
 <style lang="scss" scoped>
-.drinks-shadow {
-  text-shadow: none;
-}
+// .drinks-shadow {
+//   text-shadow: none;
+// }
 
-.drinks-shadow:hover {
-  text-shadow: 1px 1px 3px #7a883c;
-  transition: ease-in-out .5s;
-}
-</style>
+// .drinks-shadow:hover {
+//   text-shadow: 1px 1px 3px #7a883c;
+//   transition: ease-in-out .5s;
+// }</style>

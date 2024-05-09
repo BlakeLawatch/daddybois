@@ -106,8 +106,7 @@ a:hover {
 }
 
 .select:hover {
-  font-size: 1.1rem;
-  font-weight: 500;
+  text-shadow: 1px 1px 2px #824020;
   transition: ease-in-out .3s;
   border-right: thin dashed #672e1a;
   border-radius: 0;
@@ -118,8 +117,8 @@ a:hover {
 }
 
 .select-borderless:hover {
-  font-size: 1.1rem;
-  font-weight: 500;
+  text-shadow: 1px 1px 2px #824020;
   transition: ease-in-out .3s;
+
 }
 </style>

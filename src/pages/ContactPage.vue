@@ -2,18 +2,21 @@
   <div class="container-fluid background-image">
     <section class="row top-page">
       <div class="col-12 col-md-6 ps-4">
-        <h1 class="rhodium">Catering Hours Links</h1>
+        <p class="arima fs-1 fw-bold">Catering</p>
         <h5>If you’re looking for treats to bring to your next function or event, look no further! Send
           us a message, let
           us know what you’re thinking, and we can work together to get you exactly what you need!</h5>
-        <h1>Catering Hours Links</h1>
+        <p class="arima fs-1 fw-bold">Hours</p>
         <h5>M-F 6:30am - 9:00pm</h5>
         <h5>Sat 7:00am-9:00pm</h5>
         <h5>Sun 7:00am-7:00pm</h5>
-        <h1 class="arima">Catering Hours Links</h1>
-        <p><a target="_blank" class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys Breakfast
-            Bistro</a></p>
-        <p><a target="_blank" class="link" href="https://dawsontaylor.com/">Dawson Taylor</a></p>
+        <p class="arima fs-1 fw-bold">Links</p>
+        <div class="d-flex justify-content-between pb-5">
+          <a target="_blank" class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys Breakfast
+            Bistro</a>
+          <a target="_blank" class="link" href="https://dawsontaylor.com/">Dawson Taylor</a>
+          <a target="_blank" class="link" href="https://stagecoachidaho.com/">Stagecoach Inn</a>
+        </div>
       </div>
       <div class="col-12 col-md-5">
         <form method="post" action="https://formspree.io/f/xyyroezw">
@@ -88,12 +91,18 @@ export default {
 <style lang="scss" scoped>
 .link {
   color: black;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .link:hover {
   color: #824020;
-  font-size: 26px;
-  transition: ease-in-out .5s;
+  text-shadow: 1px 1px 3px #824020;
+  transition: ease-in-out .3s;
+}
+
+p {
+  margin-bottom: 0;
+  padding-top: .5rem;
+
 }
 </style>
