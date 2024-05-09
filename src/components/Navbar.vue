@@ -12,27 +12,27 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav">
         <li>
-          <router-link :to="{ name: 'Bakery' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Bakery' }" class="btn border-side text-success select text-uppercase">
             Bakery
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Drinks' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Drinks' }" class="btn border-side text-success select text-uppercase">
             Drinks
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Shop' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Shop' }" class="btn border-side text-success select text-uppercase">
             Shop
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'NightMenu' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-success select text-uppercase">
             Night Menu
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Contact' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-success text-uppercase">
             Contact Us
           </router-link>
         </li>
@@ -94,5 +94,32 @@ a:hover {
   nav {
     height: 64px;
   }
+}
+
+.border-side {
+  border-right: thin dashed #672e1a;
+  border-radius: 0;
+}
+
+.select {
+  font-size: 1rem;
+}
+
+.select:hover {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: ease-in-out .3s;
+  border-right: thin dashed #672e1a;
+  border-radius: 0;
+}
+
+.select-borderless {
+  font-size: 1rem;
+}
+
+.select-borderless:hover {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: ease-in-out .3s;
 }
 </style>
