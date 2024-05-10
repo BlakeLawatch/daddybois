@@ -60,11 +60,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.background-image {
-  background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper3.png');
-  background-size: cover;
-  background-position: center;
-}
+// .background-image {
+//   background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper3.png');
+//   background-size: cover;
+//   background-position: center;
+// }
 
 .text {
   max-width: 400px;

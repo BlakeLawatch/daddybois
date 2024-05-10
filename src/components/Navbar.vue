@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark px-3 bg-img py-4">
+  <nav class="navbar navbar-expand-sm px-3 bg-img py-4">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="logo d-flex flex-column align-items-center position-relative">
-        <img alt="logo" class="" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" height="180" />
+      <div class="logo-space d-flex flex-column align-items-center">
+        <img alt="logo" class="logo" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -69,11 +69,32 @@ export default {
 .bg-img {
   background-image: url(src/assets/img/Header-Gradient.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+}
+
+.logo-space {
+  margin-top: 120px;
+}
+
+@media(max-width: 767px) {
+  .logo-space {
+    margin-top: 0;
+  }
 }
 
 .logo {
-  margin-top: 120px;
+  height: 25vh;
+  width: auto;
+  filter: drop-shadow(2px 2px 2px #200606);
+}
+
+@media (max-width: 767px) {
+  .logo {
+    height: 15vh;
+    width: auto;
+    filter: drop-shadow(2px 2px 2px #200606);
+
+  }
 }
 
 a:hover {
@@ -99,6 +120,12 @@ a:hover {
 .border-side {
   border-right: thin dashed #672e1a;
   border-radius: 0;
+}
+
+@media(max-width: 767px) {
+  .border-side {
+    border-right: none;
+  }
 }
 
 .select {
