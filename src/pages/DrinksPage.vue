@@ -4,7 +4,7 @@
       <div class="col-5">
         <img class="img-fluid" src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
       </div>
-      <div class="col-7">
+      <div class="col-12 col-md-7">
         <p class="arima fs-5 drinks-shadow">We are proud to say that all of our coffee is served fresh via locally owned
           Dawson
           Taylor
@@ -15,6 +15,15 @@
           mimosas in town, and rightfully so. Not only are the variety of flavors outrageous, but so is the size.
           They’re big and they’re plentiful... </p>
       </div>
+      <section class="row">
+        <div class="col-6">
+
+        </div>
+        <div class="col-6">
+          <p>Latte * Cappuccino * Mocha * Americano</p>
+          <p>Breve * Red Bull Infusions * Bloody Mary * Draft Beer</p>
+        </div>
+      </section>
     </section>
   </div>
 </template>
@@ -32,11 +41,10 @@ export default {
 
 
 <style lang="scss" scoped>
-// .drinks-shadow {
-//   text-shadow: none;
-// }
+@media(max-width: 767px) {
+  img {
+    display: none;
+  }
 
-// .drinks-shadow:hover {
-//   text-shadow: 1px 1px 3px #7a883c;
-//   transition: ease-in-out .5s;
-// }</style>
+}
+</style>

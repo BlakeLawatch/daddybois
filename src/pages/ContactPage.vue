@@ -115,4 +115,8 @@ p {
     display: grid;
   }
 }
+
+textarea {
+  max-width: 100%;
+}
 </style>
