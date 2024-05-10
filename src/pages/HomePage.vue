@@ -70,6 +70,5 @@ export default {
   max-width: 400px;
 }
 
-
 ;
 </style>

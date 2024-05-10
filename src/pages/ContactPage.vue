@@ -11,11 +11,11 @@
         <h5>Sat 7:00am-9:00pm</h5>
         <h5>Sun 7:00am-7:00pm</h5>
         <p class="arima fs-1 fw-bold">Links</p>
-        <div class="d-flex justify-content-between pb-5">
-          <a target="_blank" class="link" href="https://www.goldysbreakfastbistro.com/main.html">Goldys
+        <div class="link-group">
+          <a target="_blank" class="link me-5" href="https://www.goldysbreakfastbistro.com/main.html">Goldys
             Breakfast
             Bistro</a>
-          <a target="_blank" class="link" href="https://dawsontaylor.com/">Dawson Taylor</a>
+          <a target="_blank" class="link me-5" href="https://dawsontaylor.com/">Dawson Taylor</a>
           <a target="_blank" class="link" href="https://stagecoachidaho.com/">Stagecoach Inn</a>
         </div>
       </div>
@@ -53,7 +53,7 @@
             </div>
 
           </div>
-          <button type="submit" class="btn btn-danger text-end">Submit</button>
+          <button type="submit" class="btn btn-danger text-end mb-2">Submit</button>
         </form>
       </div>
     </section>
@@ -104,6 +104,15 @@ export default {
 p {
   margin-bottom: 0;
   padding-top: .5rem;
+}
 
+.link-group {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .link-group {
+    display: grid;
+  }
 }
 </style>
