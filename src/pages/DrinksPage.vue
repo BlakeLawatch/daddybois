@@ -15,13 +15,29 @@
           mimosas in town, and rightfully so. Not only are the variety of flavors outrageous, but so is the size.
           They’re big and they’re plentiful... </p>
       </div>
-      <section class="row">
-        <div class="col-6">
+      <section class="row mt-3">
+        <div class="col-12 col-md-6">
 
         </div>
-        <div class="col-6">
-          <p>Latte * Cappuccino * Mocha * Americano</p>
-          <p>Breve * Red Bull Infusions * Bloody Mary * Draft Beer</p>
+        <div class="col-12 col-md-6">
+          <div class="d-flex justify-content-around lily">
+            <p>Latte</p>
+            <p class="hide">*</p>
+            <p>Cappuccino</p>
+            <p class="hide">*</p>
+            <p>Mocha</p>
+            <p class="hide">*</p>
+            <p>Americano</p>
+          </div>
+          <div class="d-flex justify-content-between lily">
+            <p>Smoothies</p>
+            <p class="hide">*</p>
+            <p>Red Bull Infusions</p>
+            <p class="hide">*</p>
+            <p>Bloody Mary</p>
+            <p class="hide">*</p>
+            <p>Draft Beer</p>
+          </div>
         </div>
       </section>
     </section>
@@ -44,6 +60,12 @@ export default {
 @media(max-width: 767px) {
   img {
     display: none;
+  }
+
+  @media(max-width: 676px) {
+    .hide {
+      visibility: hidden;
+    }
   }
 
 }

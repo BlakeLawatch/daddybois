@@ -57,6 +57,14 @@ footer {
   font-style: normal;
 }
 
+.lily {
+  font-family: "Lily Script One", system-ui;
+  font-weight: 400;
+  font-size: 1.7rem;
+  font-style: normal;
+}
+
+
 
 .arima {
   font-family: "Arima", system-ui;
