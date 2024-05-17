@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid background-image">
-    <section class="row top-page">
-      <div class="col-5">
+    <section class="row top-page mb-5">
+      <div class="col-12 col-md-5">
         <img class="img-fluid" src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
       </div>
       <div class="col-12 col-md-7">
@@ -15,31 +15,53 @@
           mimosas in town, and rightfully so. Not only are the variety of flavors outrageous, but so is the size.
           They’re big and they’re plentiful... </p>
       </div>
-      <section class="row mt-3">
-        <div class="col-12 col-md-6">
+    </section>
+    <section class="row mt-3 justify-content-around pb-5">
+      <div class="col-11 col-md-4 bg-color">
+        <div class="d-flex justify-content-between mx-2">
+          <p class="fs-2 fw-bold">Mimosa</p>
+          <p class="fs-2 fw-bold">...$12.95</p>
+        </div>
+        <div class="d-flex justify-content-between mx-2">
+          <p class="fs-2 fw-bold">Mimosa Flight</p>
+          <p class="fs-2 fw-bold">...$14.95</p>
+        </div>
+        <div class="d-flex justify-content-between">
 
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="d-flex justify-content-around lily">
-            <p>Latte</p>
-            <p class="hide">*</p>
-            <p>Cappuccino</p>
-            <p class="hide">*</p>
-            <p>Mocha</p>
-            <p class="hide">*</p>
-            <p>Americano</p>
+          <div>
+            <p class="mb-0">Traditional</p>
+            <p class="mb-0">Strawberry</p>
+            <p class="mb-0">Sunrise <br> (Mango, Guava, Orange, <br> touch of Cranberry)</p>
+            <p class="mb-0"></p>
           </div>
-          <div class="d-flex justify-content-between lily">
-            <p>Smoothies</p>
-            <p class="hide">*</p>
-            <p>Red Bull Infusions</p>
-            <p class="hide">*</p>
-            <p>Bloody Mary</p>
-            <p class="hide">*</p>
-            <p>Draft Beer</p>
+          <div>
+            <p class="mb-0">Mango</p>
+            <p class="mb-0">Berries n Bubbles</p>
+            <p class="mb-0">Lavender</p>
+            <p class="mb-0">...and so many more</p>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="col-12 col-md-6 hide">
+        <div class="d-flex justify-content-around lily">
+          <p>Latte</p>
+          <p>*</p>
+          <p>Cappuccino</p>
+          <p>*</p>
+          <p>Mocha</p>
+          <p>*</p>
+          <p>Americano</p>
+        </div>
+        <div class="d-flex justify-content-between lily">
+          <p>Smoothies</p>
+          <p>*</p>
+          <p>Red Bull Infusions</p>
+          <p>*</p>
+          <p>Bloody Mary</p>
+          <p>*</p>
+          <p>Draft Beer</p>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -57,6 +79,10 @@ export default {
 
 
 <style lang="scss" scoped>
+.bg-color {
+  background-color: #7a883d;
+}
+
 @media(max-width: 767px) {
   img {
     display: none;
