@@ -3,9 +3,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="text mx-md-auto pt-5 slideshowContent slideshowContent" v-for="(text, index) in texts" :src="text"
-            :key="text" :style="{ display: textIndex === index ? 'block' : 'none' }">
-            <p>{{ text }} </p>
+          <div class="pt-5 slideshowContent text-center" v-for="(text, index) in texts" :src="text" :key="text"
+            :style="{ display: textIndex === index ? 'block' : 'none' }">
+            <p class="fs-1 fw-bold">{{ text }} </p>
+          </div>
+          <div class="slideshowContent text-center" v-for="(paragraph, index) in paragraphs" :src="paragraph"
+            :key="paragraph" :style="{ display: paragraphIndex === index ? 'block' : 'none' }">
+            <p>{{ paragraph }} </p>
           </div>
           <!-- <div class="col-md-6">
           <div class="text mx-md-auto pt-5">
@@ -15,8 +19,8 @@
           </div> -->
         </div>
         <div class="col-md-6">
-          <div class="slideshowContent" style="max-width:500px">
-            <img v-for="(image, index) in images" :key="index" :src="image.src" style="width:100%"
+          <div class="slideshowContent">
+            <img v-for="(image, index) in images" :key="index" :src="image.src"
               :style="{ display: imageIndex === index ? 'block' : 'none' }">
           </div>
         </div>
@@ -32,16 +36,26 @@ export default {
     return {
       imageIndex: 0,
       images: [
+        { src: "src/assets/img/drinks.png" },
         { src: "src/assets/img/coffee.png" },
-        { src: "src/assets/img/food.png" },
-        { src: "src/assets/img/drinks.png" }
+        { src: "src/assets/img/food.png" }
       ],
       textIndex: 0,
       texts: [
-        "Butts",
-        "weiner",
-        "boobs"
+        "Happy Hour",
+        "Locally Sourced Products",
+        "Fresh Baked"
+      ],
+      paragraphIndex: 0,
+      paragraphs: [
+        "stella",
+        "Hello",
+        "whats up",
       ]
+      //       HAPPY HOUR...
+
+      // We offer one of the best happy hours in town! Come in everyday from 5:00pm - 9:00pm for half off any of our award winning mimosas and $1 off any other drink
+
     };
   },
   mounted() {
@@ -60,15 +74,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-// .background-image {
-//   background-image: url('C:\\Users\\jacob\\source\\codeworks\\MyStuff\\goldys_corner\\src\\assets\\img\\ParchmentPaper3.png');
-//   background-size: cover;
-//   background-position: center;
-// }
-
-.text {
-  max-width: 400px;
+img {
+  height: 60dvh;
+  width: auto;
 }
-
-;
 </style>
