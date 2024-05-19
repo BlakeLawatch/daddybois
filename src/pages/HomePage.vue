@@ -3,20 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="pt-5 slideshowContent text-center" v-for="(text, index) in texts" :src="text" :key="text"
+          <div class="pt-5 slideshowContent text-center" v-for="(text, index) in texts" :src="text" :key="index"
             :style="{ display: textIndex === index ? 'block' : 'none' }">
             <p class="fs-1 fw-bold">{{ text }} </p>
           </div>
           <div class="slideshowContent text-center" v-for="(paragraph, index) in paragraphs" :src="paragraph"
-            :key="paragraph" :style="{ display: paragraphIndex === index ? 'block' : 'none' }">
+            :key="index" :style="{ display: paragraphIndex === index ? 'block' : 'none' }">
             <p>{{ paragraph }} </p>
           </div>
-          <!-- <div class="col-md-6">
-          <div class="text mx-md-auto pt-5">
-            <h1>LOCALLY OWNED...</h1>
-            <b>Both Goldy's Corner and Goldys Breakfast Bistro are owned by the same family. Supporting local as much as
-              possible is very important to us as we source as many products locally as we can.</b>
-          </div> -->
         </div>
         <div class="col-md-6">
           <div class="slideshowContent">
@@ -48,7 +42,7 @@ export default {
       ],
       paragraphIndex: 0,
       paragraphs: [
-        "stella",
+        "hey hi",
         "Hello",
         "whats up",
       ]
