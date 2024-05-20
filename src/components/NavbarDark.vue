@@ -73,7 +73,8 @@ export default {
     background-size: cover;
 } */
 .bg-img {
-    background-color: linear;
+    background: linear-gradient(#313163, #35c4ef);
+    /* background: linear-gradient(#35c4ef, #313163); */
 }
 
 .logo-space {
