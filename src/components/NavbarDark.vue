@@ -13,27 +13,27 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav">
                 <li>
-                    <router-link :to="{ name: 'Bakery' }" class="btn border-side text-success select text-uppercase">
+                    <router-link :to="{ name: 'Bakery' }" class="btn border-side text-color select text-uppercase">
                         Bakery
                     </router-link>
                 </li>
                 <li>
-                    <router-link :to="{ name: 'Drinks' }" class="btn border-side text-success select text-uppercase">
+                    <router-link :to="{ name: 'Drinks' }" class="btn border-side text-color select text-uppercase">
                         Drinks
                     </router-link>
                 </li>
                 <li>
-                    <router-link :to="{ name: 'Shop' }" class="btn border-side text-success select text-uppercase">
+                    <router-link :to="{ name: 'Shop' }" class="btn border-side text-color select text-uppercase">
                         Shop
                     </router-link>
                 </li>
                 <li>
-                    <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-success select text-uppercase">
+                    <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-color select text-uppercase">
                         Night Menu
                     </router-link>
                 </li>
                 <li>
-                    <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-success text-uppercase">
+                    <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-color text-uppercase">
                         Contact Us
                     </router-link>
                 </li>
@@ -67,14 +67,13 @@ export default {
 </script>
 
 <style scoped>
-/* .bg-img {
-    background-image: url(src/assets/img/Header-Gradient.png);
-    background-position: center;
-    background-size: cover;
-} */
 .bg-img {
     background: linear-gradient(#313163, #35c4ef);
     /* background: linear-gradient(#35c4ef, #313163); */
+}
+
+.text-color {
+    color: #f0c051;
 }
 
 .logo-space {
@@ -111,7 +110,7 @@ a:hover {
 }
 
 .navbar-nav .router-link-exact-active {
-    border-bottom: 2px solid var(--bs-success);
+    border-bottom: 2px solid #f0c051;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -123,7 +122,7 @@ a:hover {
 }
 
 .border-side {
-    border-right: thin dashed #672e1a;
+    border-right: thin dashed #f0c051;
     border-radius: 0;
 }
 
@@ -140,7 +139,7 @@ a:hover {
 .select:hover {
     text-shadow: 1px 1px 2px #824020;
     transition: ease-in-out .3s;
-    border-right: thin dashed #672e1a;
+    border-right: thin dashed #f0c051;
     border-radius: 0;
 }
 
