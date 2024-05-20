@@ -1,7 +1,7 @@
 <template>
   <NavbarDark />
   <div class="container-fluid bg">
-    <section class="row">
+    <section class="row pt-5">
       <div class="col-12 text-center">
         <img src="src/assets/img/Coming Soon.png" alt="Coming Soon">
       </div>
