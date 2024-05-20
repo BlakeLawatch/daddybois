@@ -1,4 +1,5 @@
 <template>
+  <NavbarDark />
   <div class="component">
     Lol
 

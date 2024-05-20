@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
   <div class="background-image vh-100 d-flex justify-content-center align-items-center mx-auto">
     <div class="container">
       <div class="row">
@@ -24,6 +25,8 @@
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue';
+
 
 export default {
   data() {

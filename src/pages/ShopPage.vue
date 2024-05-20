@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
   <!-- <div class="background-image vh-100 gallery">
     <div class="container-fluid">
       <div class="row">
@@ -76,6 +77,9 @@
 
 
 <script>
+import Navbar from '../components/Navbar.vue';
+
+
 // import { AppState } from '../AppState';
 // import { computed, reactive, onMounted } from 'vue';
 // export default {

@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page">
       <div class="d-flex justify-content-center">
@@ -64,6 +65,8 @@
 
 
 <script>
+import Navbar from '../components/Navbar.vue';
+
 
 export default {
   setup() {

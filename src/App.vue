@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <!-- <header>
     <Navbar />
-  </header>
+  </header> -->
   <main>
     <router-view />
   </main>
@@ -22,7 +22,7 @@ export default {
       appState: computed(() => AppState),
     }
   },
-  components: { Navbar }
+  // components: { Navbar }
 }
 </script>
 <style lang="scss">

@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page">
       <div class="col-11 col-md-6 ps-4">
@@ -65,6 +66,7 @@
 <script>
 import { ref } from 'vue';
 import Pop from '../utils/Pop';
+import Navbar from '../components/Navbar.vue';
 
 export default {
   setup() {

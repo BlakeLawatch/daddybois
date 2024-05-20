@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page mb-5">
       <div class="col-12 col-md-5">
@@ -70,6 +71,7 @@
 <script>
 import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
+import Navbar from '../components/Navbar.vue';
 export default {
   setup() {
     return {}
