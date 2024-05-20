@@ -68,7 +68,7 @@ export default {
 
 <style scoped>
 .bg-img {
-    background: linear-gradient(#313163, #35c4ef);
+    background: linear-gradient(#313163, #000b19);
     /* background: linear-gradient(#35c4ef, #313163); */
 }
 

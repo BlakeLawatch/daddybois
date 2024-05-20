@@ -1,9 +1,9 @@
 <template>
   <NavbarDark />
-  <div class="container-fluid">
+  <div class="container-fluid bg">
     <section class="row">
-      <div class="col-12">
-
+      <div class="col-12 text-center">
+        <img src="src/assets/img/Coming Soon.png" alt="Coming Soon">
       </div>
     </section>
   </div>
@@ -21,4 +21,16 @@ export default {
 </script>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.bg {
+  background-image: url(https://t3.ftcdn.net/jpg/06/18/16/78/240_F_618167851_rHxwCIwh0EXjUd8NebFhOcHn5cxVw2pk.jpg);
+  height: 87vh;
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  height: 70dvh;
+  width: auto;
+}
+</style>
