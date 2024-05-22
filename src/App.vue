@@ -5,9 +5,9 @@
   <main>
     <router-view />
   </main>
-  <footer class="bg-dark text-light">
-    Made with 💖 by Daddy Boiz
-  </footer>
+  <!-- <footer>
+    <Footer />
+  </footer> -->
 </template>
 
 <script>

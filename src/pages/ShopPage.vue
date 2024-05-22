@@ -73,6 +73,7 @@
       </div>
     </div>
   </div>
+  <Bottom />
 </template>
 
 

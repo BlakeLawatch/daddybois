@@ -60,6 +60,7 @@
     </section>
 
   </div>
+  <Bottom />
 </template>
 
 
