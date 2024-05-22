@@ -72,4 +72,14 @@ footer {
   font-weight: 400;
   font-style: normal;
 }
+
+.select-borderless {
+  font-size: 1rem;
+}
+
+.select-borderless:hover {
+  text-shadow: 1px 1px 2px #824020;
+  transition: ease-in-out .3s;
+
+}
 </style>

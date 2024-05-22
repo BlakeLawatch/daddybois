@@ -46,8 +46,8 @@ export default {
       ],
       paragraphIndex: 0,
       paragraphs: [
-        "hey hi",
         "Hello",
+        "hey hi",
         "whats up",
       ]
       //       HAPPY HOUR...
@@ -58,7 +58,8 @@ export default {
   },
   mounted() {
     setInterval(this.nextImage, 3000);
-    setInterval(this.nextText, 3000)
+    setInterval(this.nextText, 3000);
+    setInterval(this.nextParagraph, 3000)
   },
   methods: {
     nextImage() {
@@ -66,6 +67,9 @@ export default {
     },
     nextText() {
       this.textIndex = (this.textIndex + 1) % this.texts.length;
+    },
+    nextParagraph() {
+      this.paragraphIndex = (this.paragraphIndex + 1) % this.paragraphs.length;
     }
   }
 };

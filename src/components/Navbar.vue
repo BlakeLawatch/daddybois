@@ -138,14 +138,4 @@ a:hover {
   border-right: thin dashed #672e1a;
   border-radius: 0;
 }
-
-.select-borderless {
-  font-size: 1rem;
-}
-
-.select-borderless:hover {
-  text-shadow: 1px 1px 2px #824020;
-  transition: ease-in-out .3s;
-
-}
 </style>
