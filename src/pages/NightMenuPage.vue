@@ -7,6 +7,7 @@
       </div>
     </section>
   </div>
+  <BottomDark />
 </template>
 
 

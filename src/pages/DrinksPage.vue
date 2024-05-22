@@ -18,7 +18,7 @@
       </div>
     </section>
     <section class="row mt-3 justify-content-around pb-5">
-      <div class="col-11 col-md-4 bg-color">
+      <div class="col-11 col-md-4 bg-color p-5">
         <div class="d-flex justify-content-between mx-2">
           <p class="fs-2 fw-bold">Mimosa</p>
           <p class="fs-2 fw-bold">...$12.95</p>
@@ -84,6 +84,7 @@ export default {
 <style lang="scss" scoped>
 .bg-color {
   background-color: #7a883d;
+  border-radius: 40% 15%;
 }
 
 @media(max-width: 767px) {
