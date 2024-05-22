@@ -46,7 +46,7 @@ export default {
       ],
       paragraphIndex: 0,
       paragraphs: [
-        "Hello",
+        "We offer one of the best happy hours in town! Come in everyday from 5:00pm - 9:00pm for half off any of our award winning mimosas and $1 off any other drink",
         "hey hi",
         "whats up",
       ]
@@ -57,9 +57,9 @@ export default {
     };
   },
   mounted() {
-    setInterval(this.nextImage, 3000);
-    setInterval(this.nextText, 3000);
-    setInterval(this.nextParagraph, 3000)
+    setInterval(this.nextImage, 4000);
+    setInterval(this.nextText, 4000);
+    setInterval(this.nextParagraph, 4000)
   },
   methods: {
     nextImage() {

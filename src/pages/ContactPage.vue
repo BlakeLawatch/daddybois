@@ -2,7 +2,7 @@
   <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page">
-      <div class="col-11 col-md-6 ps-4">
+      <div class="col-11 col-md-6 ps-4 mb-3">
         <p class="arima fs-1 fw-bold">Catering</p>
         <h5>If you’re looking for treats to bring to your next function or event, look no further! Send
           us a message, let us know what you’re thinking, and we can work together to get you exactly what you need!

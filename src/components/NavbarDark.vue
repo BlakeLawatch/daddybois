@@ -76,6 +76,10 @@ export default {
     color: #f0c051;
 }
 
+button {
+    background-color: #f0c051;
+}
+
 .logo-space {
     margin-top: 120px;
 }

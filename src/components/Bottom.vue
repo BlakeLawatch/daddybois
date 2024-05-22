@@ -1,8 +1,8 @@
 <template>
     <div class="container-fluid bg-img">
         <section class="row">
-            <div class="col-12 col-md-4">
-                <p class="text-center text-success p-0">
+            <div class="col-12 col-md-4 d-flex">
+                <p class="text-center text-success pb-0 pt-1">
                     625 W. Main St. | Boise, ID 83702 | P.208.433.3934
                     Copyright © 2024. All Rights Reserved.
                     Website designed by Daddy Bois
