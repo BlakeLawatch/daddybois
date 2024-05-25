@@ -4,8 +4,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="pt-5 slideshowContent text-center" v-for="(text, index) in texts" :src="text" :key="index"
-            :style="{ display: textIndex === index ? 'block' : 'none' }">
+          <div class="pt-5 slideshowContent text-center slide-in" v-for="(text, index) in texts" :src="text"
+            :key="index" :style="{ display: textIndex === index ? 'block' : 'none' }">
             <p class="fs-1 fw-bold">{{ text }} </p>
           </div>
           <div class="slideshowContent text-center" v-for="(paragraph, index) in paragraphs" :src="paragraph"
