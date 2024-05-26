@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="pt-5 slideshowContent text-center slide-in" v-for="(text, index) in texts" :src="text"
+          <div class="pt-5 slideshowContent text-center slide-in underline" v-for="(text, index) in texts" :src="text"
             :key="index" :style="{ display: textIndex === index ? 'block' : 'none' }">
             <p class="fs-1 fw-bold arima">{{ text }} </p>
           </div>
@@ -79,5 +79,13 @@ export default {
 img {
   height: 60dvh;
   width: auto;
+}
+
+.underline {
+  padding: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, var(--bs-secondary),
+      #00000000) 1 100%;
 }
 </style>
