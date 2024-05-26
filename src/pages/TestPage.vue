@@ -17,7 +17,7 @@
     <div class="row text-center text-light p-5 justify-content-center align-items-center">
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
-          <router-link :to="{ name: 'Bakery' }" class="btn border-side select text-uppercase">
+          <router-link :to="{ name: 'Bakery' }" class="btn select-borderless text-uppercase">
             <h4>Our Bakery</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </router-link>
@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
-          <router-link :to="{ name: 'Shop' }" class="btn border-side select text-uppercase">
+          <router-link :to="{ name: 'Shop' }" class="btn select-borderless text-uppercase">
             <h4>Merchandise</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </router-link>
