@@ -16,21 +16,27 @@
     </div>
     <div class="row text-center text-light p-5 justify-content-center align-items-center">
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 bg">
-          <h4>Our Bakery</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="card p-4 gc text-light">
+          <router-link :to="{ name: 'Bakery' }" class="btn border-side select text-uppercase">
+            <h4>Our Bakery</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </router-link>
         </div>
       </div>
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 bg">
-          <h4>Merchandise</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="card p-4 gc text-light">
+          <router-link :to="{ name: 'Shop' }" class="btn border-side select text-uppercase">
+            <h4>Merchandise</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </router-link>
         </div>
       </div>
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 bg">
-          <h4>Catering</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="card p-4 gc text-light">
+          <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-uppercase">
+            <h4>Catering</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </router-link>
         </div>
       </div>
     </div>
@@ -43,7 +49,6 @@
 
 
 <script>
-import Navbar from '../components/Navbar.vue';
 export default {
   data() {
     return {
@@ -108,8 +113,14 @@ export default {
   border: 1px solid rgba(15, 15, 15, 0.26);
 }
 
-.bg {
-  background-color: #8e5226;
+.gc {
+  background: rgba(15, 15, 15, 0.354);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(15, 15, 15, 0.26);
+
 }
 
 @media (max-width: 768px) {
