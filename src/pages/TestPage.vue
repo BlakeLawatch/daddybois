@@ -1,10 +1,10 @@
 <template>
   <Navbar />
-  <main class="container-fluid background-image vh-100">
-    <div class="row justify-content-center align-items-center slideshowContent">
-      <div class="col-md-12 position-relative image-container">
-        <img v-for="(image, index) in images" :key="index" :src="image.src"
-          :style="{ display: imageIndex === index ? 'block' : 'none' }" class="w-100 h-100">
+  <main class="container-fluid background-image pt-2">
+    <section class="row slideshowContent">
+      <div class="col-md-12 position-relative image-container d-flex justify-content-center">
+        <img v-for="(image, index) in images" :key="index" :src="image.src" class="rounded"
+          :style="{ display: imageIndex === index ? 'block' : 'none' }">
 
         <div class="col-md-5 col-10 position-absolute end-0 top-50 translate-middle-y">
           <div class="glassCard p-4 text-light" v-for="(paragraph, index) in paragraphs" :key="index"
@@ -13,7 +13,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <div class="row text-center text-light p-5 justify-content-center align-items-center">
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
@@ -55,7 +55,7 @@ export default {
       imageIndex: 0,
       images: [
         { src: "src/assets/img/latte.jpg" },
-        { src: "src/assets/img/outside.jpg" },
+        { src: "src/assets/img/Outside.png" },
         { src: "src/assets/img/food.png" }
       ],
       textIndex: 0,
@@ -93,15 +93,22 @@ export default {
 
 
 <style lang="scss" scoped>
-.image-container {
-  height: 60vh;
-  overflow: hidden;
-}
+// .image-container {
+//   height: 60vh;
+//   overflow: hidden;
+// }
 
-.image-container img {
+// .image-container img {
+//   object-fit: cover;
+//   height: 100%;
+//   width: 100%;
+// }
+
+img {
+  width: 100vw;
+  height: 60vh;
   object-fit: cover;
-  height: 100%;
-  width: 100%;
+  overflow: hidden;
 }
 
 .glassCard {
@@ -111,6 +118,8 @@ export default {
   backdrop-filter: blur(8.1px);
   -webkit-backdrop-filter: blur(8.1px);
   border: 1px solid rgba(15, 15, 15, 0.26);
+  margin-right: 3rem;
+  margin-top: 5rem;
 }
 
 .gc {
