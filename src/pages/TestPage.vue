@@ -67,8 +67,8 @@ export default {
       paragraphIndex: 0,
       paragraphs: [
         "We offer one of the best happy hours in town! Come in everyday from 5:00pm - 9:00pm for half off any of our award winning mimosas and $1 off any other drink",
-        "Locally sourced ingredients for all our products.",
-        "Freshly baked goods daily."
+        "We take pride in our locally sourced ingredients used in all of our products.",
+        "Freshly baked goods daily made by our own in house Blaker."
       ]
     };
   },
