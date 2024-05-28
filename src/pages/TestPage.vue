@@ -1,9 +1,9 @@
 <template>
   <Navbar />
-  <main class="container-fluid background-image pt-2">
+  <div class="container-fluid background-image">
     <section class="row slideshowContent">
-      <div class="col-md-12 position-relative image-container d-flex justify-content-center">
-        <img v-for="(image, index) in images" :key="index" :src="image.src" class="rounded"
+      <div class="col-12 image-container d-flex justify-content-center">
+        <img v-for="(image, index) in images" :key="index" :src="image.src"
           :style="{ display: imageIndex === index ? 'block' : 'none' }">
 
         <div class="col-md-5 col-10 position-absolute end-0 top-50 translate-middle-y">
@@ -14,7 +14,7 @@
         </div>
       </div>
     </section>
-    <div class="row text-center text-light p-5 justify-content-center align-items-center">
+    <section class="row text-center text-light p-5 justify-content-around align-items-center">
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
           <router-link :to="{ name: 'Bakery' }" class="btn select-borderless text-uppercase">
@@ -39,8 +39,8 @@
           </router-link>
         </div>
       </div>
-    </div>
-  </main>
+    </section>
+  </div>
   <Bottom />
 </template>
 
@@ -56,7 +56,7 @@ export default {
       images: [
         { src: "src/assets/img/latte.jpg" },
         { src: "src/assets/img/Outside.png" },
-        { src: "src/assets/img/food.png" }
+        { src: "src/assets/img/combo.png" }
       ],
       textIndex: 0,
       texts: [
@@ -109,6 +109,8 @@ img {
   height: 60vh;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 0px 5px var(--bs-success);
 }
 
 .glassCard {
