@@ -30,11 +30,12 @@
         <p class="arima">Breakfast Burritos ...$7.95</p>
       </div>
       <div class="col-4">
-        <h3 class="arima fw-bold">Breads ...$3.50</h3>
-        <p class="arima">Lemon</p>
-        <p class="arima">Chocolate Zucchini</p>
-        <p class="arima">Pumpkin</p>
-        <p class="arima">Banana</p>
+        <h3 class="arima fw-bold">Misc</h3>
+        <p class="arima">Cinnamon Roll ...$5.75</p>
+        <p class="arima">Caramel Roll ...$6.00</p>
+        <p class="arima">Coffee Cake ...$4.75</p>
+        <p class="arima">Fruit Parfait ...$5.50</p>
+        <p class="arima">Carrot Cake ...$3.50</p>
       </div>
     </section>
     <section class="row text-center py-5">
@@ -52,12 +53,11 @@
         <p class="arima">Peanut Butter</p>
       </div>
       <div class="col-4">
-        <h3 class="arima fw-bold">Misc</h3>
-        <p class="arima">Cinnamon Roll ...$5.75</p>
-        <p class="arima">Caramel Roll ...$6.00</p>
-        <p class="arima">Coffee Cake ...$4.75</p>
-        <p class="arima">Fruit Parfait ...$5.50</p>
-        <p class="arima">Carrot Cake ...$3.50</p>
+        <h3 class="arima fw-bold">Breads ...$3.50</h3>
+        <p class="arima">Lemon</p>
+        <p class="arima">Chocolate Zucchini</p>
+        <p class="arima">Pumpkin</p>
+        <p class="arima">Banana</p>
       </div>
     </section>
   </div>

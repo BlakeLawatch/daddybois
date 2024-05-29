@@ -84,7 +84,7 @@ export default {
 <style lang="scss" scoped>
 .bg-color {
   background-color: #7a883d;
-  border-radius: 40% 15%;
+  border-radius: 40% 15% 40% 25%;
 }
 
 @media(max-width: 767px) {
