@@ -41,19 +41,31 @@
       </div>
     </section>
   </div>
-  <section class="row bground-img justify-content-around">
-    <div class="col-6">
-      <p><b>Welcome to Goldy’s Corner!</b>Where you'll find a leisure place to study, hang out with family or friends,
-        have a
-        work meeting, work out of the office or enjoy the downtown scene. We have proudly serve locally owned Dawson
-        Taylor coffee since day one. We provide a variety of homemade treats, drinks, food and promote
-        local artists and vendors. Local artwork is always on display.
-        Thanks for stopping by!</p>
-    </div>
-    <div class="col-4">
+  <div class="container-fluid">
+    <section class="row bground-img justify-content-around py-5">
+      <div class="col-10 col-md-6 d-flex align-items-center">
+        <p class="fs-5 arima"><b>Welcome to Goldy's Corner!</b>Where you'll find a leisure place to study, hang out with
+          family
+          or friends,
+          have a
+          work meeting, work out of the office or enjoy the downtown scene. We have proudly serve locally owned Dawson
+          Taylor coffee since day one. We provide a variety of homemade treats, drinks, and promote
+          local artists and vendors. Local artwork is always on display.
+          Thanks for stopping by!</p>
+      </div>
+      <div class="col-10 col-md-3 second-bg text-center">
+        <p class="fw-bold lily">Coffee Shop • Café • Bakery</p>
+        <p class="fs-5"> 625 W. Main St., Boise, ID 83702 <br>
+          208.433.3934 <br>
+          Hours: Monday - Friday: 6:30am - 9:00pm Saturday: 7:00am - 9:00 Sunday: 7am - 7pm <br>
+          *Free WIFI <br>
+          *Plugins by booths and tables
 
-    </div>
-  </section>
+        </p>
+      </div>
+    </section>
+
+  </div>
   <Bottom />
 </template>
 
@@ -121,6 +133,13 @@ export default {
   background-image: url(src/assets/img/WhiteParchment.png);
   background-position: center;
   background-size: cover;
+  box-shadow: inset 0px 10px 10px rgb(93, 91, 91);
+}
+
+.second-bg {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #3c3a3a;
 }
 
 img {
