@@ -41,6 +41,19 @@
       </div>
     </section>
   </div>
+  <section class="row bground-img justify-content-around">
+    <div class="col-6">
+      <p><b>Welcome to Goldy’s Corner!</b>Where you'll find a leisure place to study, hang out with family or friends,
+        have a
+        work meeting, work out of the office or enjoy the downtown scene. We have proudly serve locally owned Dawson
+        Taylor coffee since day one. We provide a variety of homemade treats, drinks, food and promote
+        local artists and vendors. Local artwork is always on display.
+        Thanks for stopping by!</p>
+    </div>
+    <div class="col-4">
+
+    </div>
+  </section>
   <Bottom />
 </template>
 
@@ -103,6 +116,12 @@ export default {
 //   height: 100%;
 //   width: 100%;
 // }
+
+.bground-img {
+  background-image: url(src/assets/img/WhiteParchment.png);
+  background-position: center;
+  background-size: cover;
+}
 
 img {
   width: 100vw;
