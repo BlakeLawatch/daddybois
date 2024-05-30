@@ -17,7 +17,7 @@
     <section class="row text-center text-light p-5 justify-content-around align-items-center">
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
-          <router-link :to="{ name: 'Bakery' }" class="btn select-borderless text-uppercase">
+          <router-link :to="{ name: 'Bakery' }" class="btn select-borderless text-uppercase" title="Bakery Page">
             <h4>Our Bakery</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </router-link>
@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
-          <router-link :to="{ name: 'Shop' }" class="btn select-borderless text-uppercase">
+          <router-link :to="{ name: 'Shop' }" class="btn select-borderless text-uppercase" title="Shop Page">
             <h4>Merchandise</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </router-link>
@@ -33,7 +33,7 @@
       </div>
       <div class="col-md-3 col-10 m-2">
         <div class="card p-4 gc text-light">
-          <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-uppercase">
+          <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-uppercase" title="Contact Us Page">
             <h4>Catering</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </router-link>
@@ -44,7 +44,8 @@
   <div class="container-fluid">
     <section class="row bground-img justify-content-around py-5">
       <div class="col-10 col-md-6 d-flex align-items-center">
-        <p class="fs-5 arima"><b>Welcome to Goldy's Corner!</b>Where you'll find a leisure place to study, hang out with
+        <p class="fs-5 arima"><b>Welcome to Goldy's Corner!</b> Where you'll find a leisure place to study, hang out
+          with
           family
           or friends,
           have a
@@ -140,6 +141,7 @@ export default {
   background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #3c3a3a;
+  border: solid thin black;
 }
 
 img {

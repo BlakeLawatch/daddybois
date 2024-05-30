@@ -2,8 +2,8 @@
   <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page mb-5">
-      <div class="col-12 col-md-5">
-        <img class="img-fluid" src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
+      <div class="col-12 col-md-5 text-center">
+        <img src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
       </div>
       <div class="col-12 col-md-7">
         <p class="arima fs-5 drinks-shadow">We are proud to say that all of our coffee is served fresh via locally owned
@@ -77,10 +77,6 @@
 
 
 <script>
-import { AppState } from '../AppState';
-import { computed, reactive, onMounted } from 'vue';
-import Navbar from '../components/Navbar.vue';
-import { AOS } from 'aos';
 export default {
   setup() {
     return {
@@ -97,6 +93,11 @@ export default {
 .bg-color {
   background-color: #7a883d;
   border-radius: 40% 15% 40% 25%;
+}
+
+img {
+  height: 40vh;
+  width: auto
 }
 
 @media(max-width: 767px) {

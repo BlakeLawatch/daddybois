@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm px-3 bg-img py-4">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="logo-space d-flex flex-column align-items-center">
-        <img alt="logo" class="logo" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" />
+        <img alt="logo" class="logo" src="src/assets/img/GOLDYS-LOGO_FINAL[1].png" title="Home Page" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -12,31 +12,36 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav">
         <li>
-          <router-link :to="{ name: 'Bakery' }" class="btn border-side text-success select text-uppercase">
+          <router-link :to="{ name: 'Bakery' }" class="btn border-side text-success select text-uppercase"
+            title="Baker Page">
             Bakery
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Drinks' }" class="btn border-side text-success select text-uppercase">
+          <router-link :to="{ name: 'Drinks' }" class="btn border-side text-success select text-uppercase"
+            title="Drinks Page">
             Drinks
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Shop' }" class="btn border-side text-success select text-uppercase">
+          <router-link :to="{ name: 'Shop' }" class="btn border-side text-success select text-uppercase"
+            title="Shop Page">
             Shop
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-success select text-uppercase">
+          <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-success select text-uppercase"
+            title="Night Menu Page">
             Night Menu
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-success text-uppercase">
+          <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-success text-uppercase"
+            title="Contact Us Page">
             Contact Us
           </router-link>
         </li>
-        <router-link :to="{ name: 'Test' }" class="btn select-borderless text-success text-uppercase">
+        <router-link :to="{ name: 'Test' }" class="btn select-borderless text-success text-uppercase" title="Home Page">
           Test
         </router-link>
       </ul>

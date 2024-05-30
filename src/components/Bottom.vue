@@ -11,24 +11,26 @@
             <div class="col-12 col-md-4 d-flex justify-content-around align-items-center">
                 <div>
                     <a target="_blank" href="https://www.instagram.com/goldyscornerboise/"><i
-                            class="mdi mdi-instagram fs-2"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/goldyscorner"><i
-                            class="mdi mdi-facebook fs-2"></i></a>
+                            class="mdi mdi-instagram fs-2" title="Instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/goldyscorner"><i class="mdi mdi-facebook fs-2"
+                            title="Facebook"></i></a>
 
                 </div>
                 <div>
-                    <a class="fs-4" target="_blank"
-                        href="https://www.goldysbreakfastbistro.com/main.html">goldysbreakfastbistro.com</a>
+                    <a class="fs-4" target="_blank" href="https://www.goldysbreakfastbistro.com/main.html"
+                        title="Goldys Breakfast Bistro Website">goldysbreakfastbistro.com</a>
 
                 </div>
             </div>
             <div class="col-12 col-md-4 d-flex justify-content-around align-items-center">
 
-                <router-link :to="{ name: 'Contact' }" class="fs-2 btn select-borderless text-success">
+                <router-link :to="{ name: 'Contact' }" class="fs-2 btn select-borderless text-success"
+                    title="Contact Us Page">
                     Catering
                 </router-link>
 
-                <router-link :to="{ name: 'Contact' }" class="fs-2 btn select-borderless text-success">
+                <router-link :to="{ name: 'Contact' }" class="fs-2 btn select-borderless text-success"
+                    title="Contact Us Page">
                     Contact Us
                 </router-link>
 
