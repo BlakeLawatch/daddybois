@@ -45,7 +45,7 @@
       </div>
       <div class="col-12 col-md-6 hide">
         <div class="d-flex justify-content-around lily">
-          <p>Latte</p>
+          <p class="btn fs-2" data-bs-toggle="modal" data-bs-target="#latte">Latte</p>
           <p>*</p>
           <p>Cappuccino</p>
           <p>*</p>
@@ -65,6 +65,13 @@
       </div>
     </section>
   </div>
+  <div class="modal fade" id="latte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img class="rounded" src="src/assets/img/drinks.png" alt="">
+      </div>
+    </div>
+  </div>
   <Bottom />
 </template>
 
@@ -73,9 +80,14 @@
 import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
 import Navbar from '../components/Navbar.vue';
+import { AOS } from 'aos';
 export default {
   setup() {
-    return {}
+    return {
+
+
+
+    }
   }
 };
 </script>
@@ -97,6 +109,7 @@ export default {
       visibility: hidden;
     }
   }
+
 
 }
 </style>
