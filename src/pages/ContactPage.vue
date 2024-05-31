@@ -122,4 +122,39 @@ p {
 textarea {
   max-width: 100%;
 }
-</style>
+
+button {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 0 var(--bs-success);
+  }
+
+  40% {
+    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px var(--bs-success);
+  }
+
+  80% {
+    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 7px rgba(255, 4, 0, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px rgba(255, 4, 0, 0);
+  }
+}
+
+// @keyframes pulse {
+//   0% {
+//     transform: scale(1);
+//   }
+
+//   50% {
+//     transform: scale(1.05);
+//   }
+
+//   100% {
+//     transform: scale(1);
+//   }
+// }</style>
