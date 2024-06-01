@@ -72,20 +72,10 @@ import Navbar from '../components/Navbar.vue';
 export default {
   setup() {
     const subjects = ["Catering", "Jobs", "Art", "Other"]
-    // const editable = ref({})
+
     return {
       subjects,
-      // editable,
 
-      // async sendEmail() {
-      //   try {
-      //     editable.value = {}
-      //     Pop.success("Email Sent")
-      //   }
-      //   catch (error) {
-      //     Pop.error("Email didn't send, please try again");
-      //   }
-      // }
     }
   }
 };
@@ -123,27 +113,58 @@ textarea {
   max-width: 100%;
 }
 
+
+
 button {
   animation: pulse 1s infinite;
+
+
+  // background-color: #C9A243;
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 0 var(--bs-success);
+    }
+
+    40% {
+      box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px var(--bs-success);
+    }
+
+    80% {
+      box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 7px rgba(255, 4, 0, 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px rgba(255, 4, 0, 0);
+    }
+  }
 }
 
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 0 var(--bs-success);
-  }
+// button {
+//   animation: pulse 1s infinite;
+// }
 
-  40% {
-    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px var(--bs-success);
-  }
+// button.log[data-state="valid"] {
 
-  80% {
-    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 7px rgba(255, 4, 0, 0);
-  }
+//   // background-color: #C9A243;
+//   @keyframes pulse {
+//     0% {
+//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 0 var(--bs-success);
+//     }
 
-  100% {
-    box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px rgba(255, 4, 0, 0);
-  }
-}
+//     40% {
+//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px var(--bs-success);
+//     }
+
+//     80% {
+//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 7px rgba(255, 4, 0, 0);
+//     }
+
+//     100% {
+//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px rgba(255, 4, 0, 0);
+//     }
+//   }
+// }
+
 
 // @keyframes pulse {
 //   0% {
