@@ -114,8 +114,9 @@ textarea {
 }
 
 
+form:valid button[type="submit"] {
 
-button {
+
   animation: pulse 1s infinite;
 
 
@@ -137,6 +138,7 @@ button {
       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px rgba(255, 4, 0, 0);
     }
   }
+
 }
 
 // button {
