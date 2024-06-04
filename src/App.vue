@@ -28,6 +28,7 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
+
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Emilys+Candy&family=Frijole&family=Henny+Penny&family=Lily+Script+One&family=Rhodium+Libre&display=swap');
 
 :root {
