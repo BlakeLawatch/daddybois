@@ -16,7 +16,7 @@
       <img :src="images[enlargedImageIndex].src" :alt="images[enlargedImageIndex].alt" />
     </div>
   </div> -->
-  <div class="background-image top-page">
+  <!-- <div class="background-image top-page">
     <div class="container-fluid">
       <div class="row justify-content-around">
         <div class="col-12 col-md-3">
@@ -72,7 +72,52 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
+  <main class="container-fluid">
+    <div class="row p-5 justify-content-center">
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\black.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\glass.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\grey.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\orange.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\red.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\white.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\red.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\gift.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+    </div>
+  </main>
   <Bottom />
 </template>
 
@@ -112,6 +157,10 @@ import Navbar from '../components/Navbar.vue';
 
 
 <style lang="scss" scoped>
+.nav {
+  z-index: 1;
+}
+
 .item-card {
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -131,6 +180,28 @@ import Navbar from '../components/Navbar.vue';
 
 .item-price {
   color: #ffffff;
+}
+
+.itemImage {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.glassCard {
+  background: rgba(15, 15, 15, 0.354);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(15, 15, 15, 0.26);
+}
+
+.purchase-btn {
+  position: absolute;
+  bottom: -19px;
+  /* left: 76px; */
 }
 
 // .max-height {
