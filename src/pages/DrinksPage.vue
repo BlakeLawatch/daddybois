@@ -45,8 +45,8 @@
       </div>
       <div class="col-12 col-md-6 hide">
         <div class="d-flex justify-content-around lily">
-          <!-- <p class="btn fs-2" data-bs-toggle="modal" data-bs-target="#latte">Latte</p> -->
-          <p>Latte</p>
+          <p class="btn fs-2" data-bs-toggle="modal" data-bs-target="#latte">Latte</p>
+          <!-- <p>Latte</p> -->
           <p>*</p>
           <p>Cappuccino</p>
           <p>*</p>
