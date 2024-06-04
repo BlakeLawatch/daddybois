@@ -30,8 +30,24 @@ export default {
   background-size: cover;
 }
 
+
+
 img {
   height: 70dvh;
   width: auto;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
