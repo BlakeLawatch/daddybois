@@ -77,27 +77,45 @@
   <main class="container-fluid">
     <div class="row p-5 justify-content-center">
       <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
-        <img class="itemImage rounded" src="src\assets\img\ShopImages\IMG-2735 1.png" alt="">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\black.png" alt="">
         <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
       </div>
 
       <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
-        <img class="itemImage rounded"
-          src="C:\Users\jacob\source\codeworks\MyStuff\goldys_corner\src\assets\img\ShopImages\image 3.png" alt="">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\glass.png" alt="">
         <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
       </div>
 
       <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
-        <img class="itemImage rounded"
-          src="C:\Users\jacob\source\codeworks\MyStuff\goldys_corner\src\assets\img\ShopImages\IMG-2732 1.png" alt="">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\grey.png" alt="">
         <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
       </div>
 
       <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
-        <img class="itemImage rounded"
-          src="C:\Users\jacob\source\codeworks\MyStuff\goldys_corner\src\assets\img\ShopImages\IMG-2733 1.png" alt="">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\orange.png" alt="">
         <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
       </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\red.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\white.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\red.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
+      <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-3">
+        <img class="itemImage rounded" src="src\assets\img\ShopImages\gift.png" alt="">
+        <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+      </div>
+
     </div>
   </main>
   <Bottom />
