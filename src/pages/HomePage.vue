@@ -80,9 +80,9 @@ export default {
     return {
       imageIndex: 0,
       images: [
+        { src: "src/assets/img/Mimosa.png" },
         { src: "src/assets/img/latte.jpg" },
-        { src: "src/assets/img/Outside.png" },
-        { src: "src/assets/img/combo.png" }
+        { src: "src/assets/img/Cases.png" }
       ],
       textIndex: 0,
       texts: [
@@ -146,7 +146,7 @@ export default {
 
 img {
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   object-fit: cover;
   overflow: hidden;
   border-radius: 0px 0px 25px 25px;
