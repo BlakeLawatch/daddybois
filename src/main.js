@@ -6,6 +6,7 @@ import App from './App.vue'
 import { registerGlobalComponents } from './registerGlobalComponents'
 import { router } from './router'
 import './utils/SocketProvider.js'
+
 import 'aos/dist/aos.css'
 
 // const app = createApp(App);
