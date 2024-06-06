@@ -38,7 +38,7 @@
         <p class="arima">Carrot Cake ...$3.50</p>
       </div>
     </section>
-    <section class="row text-center py-5">
+    <section class="row text-center py-5" data-aos="zoom-in-up">
       <div class="col-4">
         <h3 class="arima fw-bold">Scones ...$4.25</h3>
         <p class="arima">Blueberry-lemon</p>

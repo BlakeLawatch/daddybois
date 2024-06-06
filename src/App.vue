@@ -21,6 +21,7 @@ export default {
   setup() {
     AOS.init({
       duration: 800,
+      once: true
     })
     return {
       appState: computed(() => AppState),
