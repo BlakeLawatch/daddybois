@@ -16,7 +16,7 @@
     </section>
     <section class="row text-center text-light p-5 justify-content-around align-items-center">
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 gc text-light">
+        <div class="card p-4 gc text-light" data-aos="fade-up">
           <router-link :to="{ name: 'Bakery' }" class="btn select-borderless text-uppercase" title="Bakery Page">
             <h4>Our Bakery</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 gc text-light">
+        <div class="card p-4 gc text-light" data-aos="fade-up">
           <router-link :to="{ name: 'Shop' }" class="btn select-borderless text-uppercase" title="Shop Page">
             <h4>Merchandise</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 gc text-light">
+        <div class="card p-4 gc text-light" data-aos="fade-up">
           <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-uppercase" title="Contact Us Page">
             <h4>Catering</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -44,7 +44,8 @@
   <div class="container-fluid">
     <section class="row bground-img justify-content-around py-5">
       <div class="col-10 col-md-6 d-flex align-items-center">
-        <p class="fs-5 arima"><b>Welcome to Goldy's Corner!</b> Where you'll find a leisure place to study, hang out
+        <p class="fs-5 arima" data-aos="fade-right"><b>Welcome to Goldy's Corner!</b> Where you'll find a leisure place
+          to study, hang out
           with
           family
           or friends,
@@ -56,7 +57,7 @@
       </div>
       <div class="col-10 col-md-3 second-bg text-center">
         <p class="fw-bold lily">Coffee Shop • Café • Bakery</p>
-        <p class="fs-5"> 625 W. Main St., Boise, ID 83702 <br>
+        <p data-aos="zoom-in" class="fs-5"> 625 W. Main St., Boise, ID 83702 <br>
           208.433.3934 <br>
           Hours: Monday - Friday: 6:30am - 9:00pm Saturday: 7:00am - 9:00 Sunday: 7am - 7pm <br>
           *Free WIFI <br>
@@ -80,9 +81,9 @@ export default {
     return {
       imageIndex: 0,
       images: [
+        { src: "src/assets/img/Mimosa.png" },
         { src: "src/assets/img/latte.jpg" },
-        { src: "src/assets/img/Outside.png" },
-        { src: "src/assets/img/combo.png" }
+        { src: "src/assets/img/Cases.png" }
       ],
       textIndex: 0,
       texts: [
@@ -146,7 +147,7 @@ export default {
 
 img {
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   object-fit: cover;
   overflow: hidden;
   border-radius: 0px 0px 25px 25px;
