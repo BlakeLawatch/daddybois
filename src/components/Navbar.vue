@@ -41,6 +41,12 @@
             Contact Us
           </router-link>
         </li>
+        <li>
+          <router-link :to="{ name: 'Test' }" class="btn select-borderless text-success text-uppercase"
+            title="Test Page">
+            Test
+          </router-link>
+        </li>
       </ul>
     </div>
   </nav>
