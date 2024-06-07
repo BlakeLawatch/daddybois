@@ -9,7 +9,7 @@
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarText">
       <ul class="navbar-nav">
         <li>
           <router-link :to="{ name: 'Bakery' }" class="btn border-side text-success select text-uppercase"
@@ -39,12 +39,6 @@
           <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-success text-uppercase"
             title="Contact Us Page">
             Contact Us
-          </router-link>
-        </li>
-        <li>
-          <router-link :to="{ name: 'Test' }" class="btn select-borderless text-success text-uppercase"
-            title="Test Page">
-            Test
           </router-link>
         </li>
       </ul>
