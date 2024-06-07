@@ -5,8 +5,9 @@
       <div class="col-12 col-md-5 text-center">
         <img src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
       </div>
-      <div class="col-12 col-md-7">
-        <p class="arima fs-5 drinks-shadow">We are proud to say that all of our coffee is served fresh via locally owned
+      <div data-aos="fade-left" class="col-12 col-md-7">
+        <p class="arima fs-5 drinks-shadow">We are proud to say that all of our coffee is served
+          fresh via locally owned
           Dawson
           Taylor
           Coffee Roasters.
@@ -21,11 +22,11 @@
       <div class="col-11 col-md-4 bg-color p-5">
         <div class="d-flex justify-content-between mx-2">
           <p class="fs-2 fw-bold">Mimosa</p>
-          <p class="fs-2 fw-bold">...$12.95</p>
+          <p class="fs-2 fw-bold" data-aos="fade-left">...$12.95</p>
         </div>
         <div class="d-flex justify-content-between mx-2">
           <p class="fs-2 fw-bold">Mimosa Flight</p>
-          <p class="fs-2 fw-bold">...$14.95</p>
+          <p class="fs-2 fw-bold" data-aos="fade-left">...$14.95</p>
         </div>
         <div class="d-flex justify-content-between">
 

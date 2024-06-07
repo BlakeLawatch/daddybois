@@ -16,26 +16,26 @@
     </section>
     <section class="row text-center text-light p-5 justify-content-around align-items-center">
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 gc text-light" data-aos="fade-up">
+        <div class="card p-4 gc text-light line-top line-bottom" data-aos="fade-up">
           <router-link :to="{ name: 'Bakery' }" class="btn select-borderless text-uppercase" title="Bakery Page">
             <h4>Our Bakery</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>We bake 'em fresh everyday so you don't have to. C'mon in for a tasty bite!</p>
           </router-link>
         </div>
       </div>
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 gc text-light" data-aos="fade-up">
+        <div class="card p-4 gc text-light line-top line-bottom" data-aos="fade-up">
           <router-link :to="{ name: 'Shop' }" class="btn select-borderless text-uppercase" title="Shop Page">
             <h4>Merchandise</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Looking to take a piece of us home with you? Check out our merch here!</p>
           </router-link>
         </div>
       </div>
       <div class="col-md-3 col-10 m-2">
-        <div class="card p-4 gc text-light" data-aos="fade-up">
+        <div class="card p-4 gc text-light line-top line-bottom" data-aos="fade-up">
           <router-link :to="{ name: 'Contact' }" class="btn select-borderless text-uppercase" title="Contact Us Page">
             <h4>Catering</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>You need the eats, we got the treats! We cater perfectly for office meetings.</p>
           </router-link>
         </div>
       </div>
@@ -171,9 +171,74 @@ img {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8.1px);
   -webkit-backdrop-filter: blur(8.1px);
-  border: 1px solid rgba(15, 15, 15, 0.26);
-
+  border: thin solid #0f0f0f42;
+  position: relative;
 }
+
+
+
+.line-bottom::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  content: '';
+  border-right: 5px solid var(--bs-success);
+  border-bottom: 5px solid var(--bs-success);
+}
+
+.line-bottom:hover::after {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  content: '';
+  border-right: 5px solid var(--bs-success);
+  border-bottom: 5px solid var(--bs-success);
+  transition: 1s;
+}
+
+// .line-bottom:hover::after {
+//   position: absolute;
+//   left: 10px;
+//   top: 10px;
+//   width: 30px;
+//   height: 30px;
+//   z-index: 2;
+//   content: '';
+//   border-left: 5px solid var(--bs-success);
+//   border-top: 5px solid var(--bs-success);
+//   transition: 1s;
+// }
+
+// .line-top::before {
+//   position: absolute;
+//   left: 20px;
+//   top: 20px;
+//   width: 30px;
+//   height: 30px;
+//   z-index: 1;
+//   content: '';
+//   border-left: 5px solid var(--bs-success);
+//   border-top: 5px solid var(--bs-success);
+// }
+
+// .line-top:hover::after {
+//   position: absolute;
+//   right: 10px;
+//   bottom: 10px;
+//   width: 30px;
+//   height: 30px;
+//   z-index: 2;
+//   content: '';
+//   border-right: 5px solid var(--bs-success);
+//   border-bottom: 5px solid var(--bs-success);
+//   transition: 1s;
+// }
 
 @media (max-width: 768px) {
   .slideshowContent {
