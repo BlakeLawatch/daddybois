@@ -49,7 +49,7 @@ footer {
 }
 
 .background-image {
-  background-image: url('src/assets/img/ParchmentPaper3.png');
+  background-image: url('src/assets/img/ParchmentPaper.png');
   background-size: cover;
   background-position: center;
 }
