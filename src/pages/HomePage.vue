@@ -185,8 +185,8 @@ img {
   height: 30px;
   z-index: 1;
   content: '';
-  border-right: 5px solid var(--bs-success);
-  border-bottom: 5px solid var(--bs-success);
+  border-right: 5px solid #824020;
+  border-bottom: 5px solid #824020;
 }
 
 .line-bottom:hover::after {
@@ -197,8 +197,8 @@ img {
   height: 30px;
   z-index: 2;
   content: '';
-  border-right: 5px solid var(--bs-success);
-  border-bottom: 5px solid var(--bs-success);
+  border-right: 5px solid #824020;
+  border-bottom: 5px solid #824020;
   transition: 1s;
 }
 

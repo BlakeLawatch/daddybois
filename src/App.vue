@@ -86,7 +86,7 @@ footer {
 
 .select-borderless:hover {
   text-shadow: 1px 1px 2px #824020;
-  transition: ease-in-out .3s;
+  transition: ease-in-out .5s;
 
 }
 </style>
