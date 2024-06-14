@@ -45,6 +45,26 @@
                 <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
         </section>
     </main>
     <Bottom />
