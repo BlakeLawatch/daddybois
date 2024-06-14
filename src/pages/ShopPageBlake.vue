@@ -3,6 +3,10 @@
         <Navbar />
     </div>
     <main class="container-fluid background-image top-page">
+        <section class="row">
+
+        </section>
+
         <section class="row p-5 justify-content-center">
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -65,6 +69,7 @@
                 <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
                 <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
+
         </section>
     </main>
     <Bottom />
@@ -72,6 +77,18 @@
 
 
 <script>
+import { onMounted } from 'vue';
+
+export default {
+    setup() {
+
+
+        return {
+
+        }
+    }
+}
+
 
 </script>
 
