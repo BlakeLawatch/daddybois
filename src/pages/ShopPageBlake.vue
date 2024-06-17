@@ -110,6 +110,26 @@
                 <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/GreenThermos.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/OrangeThermos.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/BlueTruckerHat1.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/DadHat1.png" alt="">
+                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+            </div>
+
         </section>
     </main>
     <Bottom />
