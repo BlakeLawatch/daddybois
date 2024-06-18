@@ -4,17 +4,21 @@
     </div>
     <main class="container-fluid background-image top-page">
         <section class="row">
-
+            <button onclick="getMugs()">Mugs</button>
         </section>
 
         <section class="row p-5 justify-content-center">
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+                <FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
+                    <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
+
+                </FORM>
             </div>
 
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+            <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
                 <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
@@ -24,7 +28,7 @@
                 <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+            <div class="col-md-3 col-10 mugs position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/ClearMug.png" alt="">
                 <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
@@ -137,14 +141,17 @@
 
 
 <script>
-import { onMounted } from 'vue';
+
 
 export default {
     setup() {
-
-
+        function getMugs() {
+            let elem = document.getElementById("mugs")
+            return elem
+            // getMugs
+        }
         return {
-
+            getMugs
         }
     }
 }
