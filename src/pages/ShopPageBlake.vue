@@ -10,130 +10,134 @@
         <section class="row p-5 justify-content-center">
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="purchase-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
                 <FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
-                    <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
 
                 </FORM>
             </div>
 
             <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueMug.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 mugs position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/ClearMug.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/GreyOrangeMug.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomensShirt.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GrayMensShirt.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BlueMensShirt.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/ChampagneGlass.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/WaterBottle.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/Tumbler.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GoldysSpice.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/CornerMug.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
+            </div>
+
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomensShirt.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/GrayMensShirt.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/BlueMensShirt.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/ChampagneGlass.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/WaterBottle.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/Tumbler.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/GoldysSpice.png" alt="">
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/GreenThermos.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/OrangeThermos.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueTruckerHat1.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
                 <img class="itemImage" src="src/assets/img/ShopImages/DadHat1.png" alt="">
-                <button class="btn glassCard text-light purchase-btn">Add To Cart</button>
             </div>
 
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <img class="itemImage" src="src/assets/img/ShopImages/GrayTruckerHat1.png" alt="">
+            </div>
         </section>
     </main>
     <Bottom />
@@ -221,7 +225,7 @@ export default {
 
 .purchase-btn {
     position: absolute;
-    bottom: -19px;
+    bottom: -32px;
     /* left: 76px; */
 }
 
