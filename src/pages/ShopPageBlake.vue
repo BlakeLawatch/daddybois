@@ -4,8 +4,8 @@
     </div>
     <main class="container-fluid background-image top-page">
         <!-- <section class="row">
-            <button onclick="getMugs()">Mugs</button>
-        </section> -->
+                <button onclick="getMugs()">Mugs</button>
+            </section> -->
 
         <section class="row p-5 justify-content-center">
 
@@ -20,12 +20,14 @@
 
             <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Light Blue Mug <br> $12.95</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Light Blue Mug <br> $12.95
+                </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Dark Blue Mug <br> $12.95 </p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Dark Blue Mug <br> $12.95
+                </p>
             </div>
 
             <div class="col-md-3 col-10 mugs position-relative d-flex justify-content-center my-4">
@@ -35,7 +37,8 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreyOrangeMug.png" alt="">
-                <p data-aos="fade-right" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p data-aos="fade-right" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart
+                </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -50,7 +53,8 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
-                <p data-aos="fade-left" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p data-aos="fade-left" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart
+                </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -141,10 +145,12 @@
         </section>
     </main>
     <Bottom />
+
 </template>
 
 
 <script>
+
 
 
 export default {
