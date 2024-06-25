@@ -52,13 +52,13 @@
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
                 <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Ground
-                    Coffee <br> $</p>
+                    Coffee <br> $15.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
                 <p data-aos="fade-left" class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Whole
-                    Coffee Beans <br> $
+                    Coffee Beans <br> $15.95
                 </p>
             </div>
 
@@ -80,7 +80,7 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Chapstick <br> $ </p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Chap Stick <br> $2.00 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
