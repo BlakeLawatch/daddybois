@@ -75,17 +75,18 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Pink Womans Shirt <br> $ </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Chapstick <br> $ </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Gift Card <br> <i>works at restaurant and
+                        corner</i> </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
