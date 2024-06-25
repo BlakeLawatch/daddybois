@@ -51,24 +51,26 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
-                <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Ground
+                    Coffee <br> $</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
-                <p data-aos="fade-left" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart
+                <p data-aos="fade-left" class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Whole
+                    Coffee Beans <br> $
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Black Beanie <br> $ </p>
             </div>
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Womans Shirt <br> $ </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -118,7 +120,7 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GoldysSpice.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Spice Mix <br> $12.95</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
