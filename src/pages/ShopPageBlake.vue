@@ -37,13 +37,16 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreyOrangeMug.png" alt="">
-                <p data-aos="fade-right" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart
+                <p data-aos="fade-right" class="glassCard text-light p-2 text-center purchase-btn">16 oz Grey/Orange Mug
+                    <br> $12.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/CornerMug.png" alt="">
-                <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Goldys Corner 12 oz Mug
+                    <br> $12.95
+                </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -140,7 +143,7 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayTruckerHat1.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p data-aos="fade up" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
             </div>
         </section>
     </main>
