@@ -17,10 +17,12 @@ import Navbar from './components/Navbar.vue'
 import AOS from 'aos'
 
 
+
 export default {
   setup() {
     AOS.init({
-      duration: 800,
+      duration: 1000,
+      easing: 'ease',
       once: true
     })
     return {
