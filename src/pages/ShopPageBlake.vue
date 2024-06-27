@@ -145,13 +145,13 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <div class="col-8 itemImage"></div>
-                <p data-aos="fade up" class="glassCard text-light p-2 text-center purchase-btn">Gray Trucker Hat <br>
+                <div class="col-8 itemImage gray-hat"></div>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Trucker Hat <br>
                     $25.95</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/DadHat1.png" alt="">
+                <div class="col-8 itemImage dad-hat"></div>
                 <p class="glassCard text-light p-2 text-center purchase-btn">Yellow Dad Hat <br> $25.95 </p>
             </div>
 
@@ -215,20 +215,8 @@ export default {
     color: #ffffff;
 }
 
-.itemImage-hat {
-    max-height: 40dvh;
-    max-width: 20dvw;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px #423826;
-    border: solid thick #00000082;
-    overflow: hidden;
-    transition: transform ease-in-out 1s;
-}
-
 .itemImage {
-    max-height: 40dvh;
+    height: 40dvh;
     max-width: auto;
     background-size: cover;
     background-position: center;
@@ -276,6 +264,20 @@ export default {
 }
 
 .gray-hat {
-    background-image: ;
+    background-image: url(src/assets/img/ShopImages/GrayTruckerHat1.png);
+}
+
+.gray-hat:hover {
+    background-image: url(src/assets/img/ShopImages/GrayTruckerHat2.png);
+    transition: ease-in-out 1s;
+}
+
+.dad-hat {
+    background-image: url(src/assets/img/ShopImages/DadHat1.png)
+}
+
+.dad-hat:hover {
+    background-image: url(src/assets/img/ShopImages/DadHat2.png);
+    transition: ease-in-out 1s;
 }
 </style>
