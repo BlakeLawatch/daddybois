@@ -91,11 +91,12 @@ export default {
 .link {
   color: black;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .link:hover {
   color: #824020;
-  text-shadow: 1px 1px 3px #824020;
+  text-shadow: 1px 1px 2px #824020;
   transition: ease-in-out .3s;
 }
 
