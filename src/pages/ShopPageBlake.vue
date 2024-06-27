@@ -37,45 +37,65 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreyOrangeMug.png" alt="">
-                <p data-aos="fade-right" class="glassCard text-light p-2 text-center purchase-btn">16 oz Grey/Orange Mug
+                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Grey/Orange Mug
                     <br> $12.95
                 </p>
             </div>
+            <!-- 
+             t-shirts 23.95
+             beanie 18.95
+             hats 25.95 -->
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/CornerMug.png" alt="">
-                <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Goldys Corner 12 oz Mug
+                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Corner 12 oz Mug
                     <br> $12.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
-                <p data-aos="fade-up" class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Ground
+                <p class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Ground
                     Coffee <br> $15.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
-                <p data-aos="fade-left" class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Whole
+                <p class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Whole
                     Coffee Beans <br> $15.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Black Beanie <br> $ </p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Black Beanie <br> $18.95 </p>
             </div>
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Womans Shirt <br> $ </p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Woman's Shirt <br> $23.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Pink Womans Shirt <br> $ </p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Pink Woman's Shirt <br> $23.95 </p>
+            </div>
+
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomansShirt.png" alt="">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Purple Woman's Shirt <br> $23.95 </p>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/GrayMensShirt.png" alt="">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Men's Shirt <br> $23.95 </p>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <img class="itemImage" src="src/assets/img/ShopImages/BlueMensShirt.png" alt="">
+                <p class="glassCard text-light p-2 text-center purchase-btn">Blue Men's Shirt <br> $23.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -87,21 +107,6 @@
                 <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
                 <p class="glassCard text-light p-2 text-center purchase-btn">Gift Card <br> <i>works at restaurant and
                         corner</i> </p>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomensShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GrayMensShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
-            </div>
-
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BlueMensShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -135,19 +140,21 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BlueTruckerHat1.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <div class="col-8 itemImage blue-hat"></div>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Blue Trucker Hat <br> $25.95</p>
+            </div>
+
+            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+                <div class="col-8 itemImage"></div>
+                <p data-aos="fade up" class="glassCard text-light p-2 text-center purchase-btn">Gray Trucker Hat <br>
+                    $25.95</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/DadHat1.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center purchase-btn">Yellow Dad Hat <br> $25.95 </p>
             </div>
 
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GrayTruckerHat1.png" alt="">
-                <p data-aos="fade up" class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
-            </div>
         </section>
     </main>
     <Bottom />
@@ -208,6 +215,17 @@ export default {
     color: #ffffff;
 }
 
+.itemImage-hat {
+    max-height: 40dvh;
+    max-width: 20dvw;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #423826;
+    border: solid thick #00000082;
+    overflow: hidden;
+    transition: transform ease-in-out 1s;
+}
 
 .itemImage {
     max-height: 40dvh;
@@ -246,5 +264,18 @@ export default {
     background-position: center;
     background-size: cover;
     box-shadow: inset 0px 10px 10px rgb(93, 91, 91);
+}
+
+.blue-hat {
+    background-image: url(src/assets/img/ShopImages/BlueTruckerHat1.png);
+}
+
+.blue-hat:hover {
+    background-image: url(src/assets/img/ShopImages/BlueTruckerHat2.png);
+    transition: ease-in-out 1s;
+}
+
+.gray-hat {
+    background-image: ;
 }
 </style>
