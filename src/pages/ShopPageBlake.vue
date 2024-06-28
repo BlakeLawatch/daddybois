@@ -4,9 +4,9 @@
     </div>
     <main class="container-fluid background-image top-page">
         <section class="row justify-content-center">
-            <div class="col-10 text-center">
-                <button class="filter-buttons me-3 text-uppercase" @click="changeFilter('')">All</button>
-                <button class="filter-buttons mx-3 text-uppercase" @click="changeFilter(merchType)"
+            <div class="col-6 col-md-8 d-flex justify-content-around">
+                <button class="filter-buttons text-uppercase" @click="changeFilter('')">All</button>
+                <button class="filter-buttons text-uppercase" @click="changeFilter(merchType)"
                     v-for="merchType in merchTypes" :key="merchType">{{ merchType
                     }}</button>
 
@@ -17,7 +17,7 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
-                <p class="purchase-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
+                <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
                 <FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
 
@@ -26,24 +26,24 @@
 
             <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Light Blue Mug <br> $12.95
+                <p class="glassCard text-light p-2 text-center description-btn">16 oz Light Blue Mug <br> $12.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Dark Blue Mug <br> $12.95
+                <p class="glassCard text-light p-2 text-center description-btn">16 oz Dark Blue Mug <br> $12.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 mugs position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/ClearMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">12 oz Glass Mug <br> $12.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">12 oz Glass Mug <br> $12.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreyOrangeMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">16 oz Grey/Orange Mug
+                <p class="glassCard text-light p-2 text-center description-btn">16 oz Grey/Orange Mug
                     <br> $12.95
                 </p>
             </div>
@@ -54,111 +54,112 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/CornerMug.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Corner 12 oz Mug
+                <p class="glassCard text-light p-2 text-center description-btn">Goldys Corner 12 oz Mug
                     <br> $12.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Ground
+                <p class="glassCard text-light p-2 text-center description-btn">Dawson Taylor Ground
                     Coffee <br> $15.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Dawson Taylor Whole
+                <p class="glassCard text-light p-2 text-center description-btn">Dawson Taylor Whole
                     Coffee Beans <br> $15.95
                 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Black Beanie <br> $18.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Black Beanie <br> $18.95 </p>
             </div>
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Woman's Shirt <br> $23.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Gray Woman's Shirt <br> $23.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Pink Woman's Shirt <br> $23.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Pink Woman's Shirt <br> $23.95 </p>
             </div>
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomansShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Purple Woman's Shirt <br> $23.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Purple Woman's Shirt <br> $23.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayMensShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Men's Shirt <br> $23.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Gray Men's Shirt <br> $23.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueMensShirt.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Blue Men's Shirt <br> $23.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Blue Men's Shirt <br> $23.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Chap Stick <br> $2.00 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Goldys Chap Stick <br> $2.00 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Gift Card <br> <i>works at restaurant and
+                <p class="glassCard text-light p-2 text-center description-btn">Gift Card <br> <i>works at restaurant
+                        and
                         corner</i> </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/ChampagneGlass.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Add To Cart</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WaterBottle.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Add To Cart</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Tumbler.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Add To Cart</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GoldysSpice.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Goldys Spice Mix <br> $12.95</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Goldys Spice Mix <br> $12.95</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreenThermos.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Add To Cart</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/OrangeThermos.png" alt="">
-                <p class="glassCard text-light p-2 text-center purchase-btn">Add To Cart</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Add To Cart</p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage blue-hat"></div>
-                <p class="glassCard text-light p-2 text-center purchase-btn">Blue Trucker Hat <br> $25.95</p>
+                <p class="glassCard text-light p-2 text-center description-btn">Blue Trucker Hat <br> $25.95</p>
             </div>
 
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+            <div id="hats" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage gray-hat"></div>
-                <p class="glassCard text-light p-2 text-center purchase-btn">Gray Trucker Hat <br>
+                <p class="glassCard text-light p-2 text-center description-btn">Gray Trucker Hat <br>
                     $25.95</p>
             </div>
 
-            <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+            <div id="hats" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage dad-hat"></div>
-                <p class="glassCard text-light p-2 text-center purchase-btn">Yellow Dad Hat <br> $25.95 </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Yellow Dad Hat <br> $25.95 </p>
             </div>
 
         </section>
@@ -169,6 +170,7 @@
 
 
 <script>
+import { hide } from '@popperjs/core';
 import { ref } from 'vue';
 
 
@@ -176,16 +178,17 @@ import { ref } from 'vue';
 
 export default {
     setup() {
-        const merchTypes = ['mugs', 'shirts', 'cups', 'misc']
+        const merchTypes = ['mugs', 'shirts', 'cups', 'hats', 'misc']
         const filteredMerch = ref('')
         return {
             merchTypes,
             changeFilter(merch) {
                 // filteredMerch.value = merch
-                let shop = document.getElementById(merch)
+                let shop = document.getElementsByName(merch)
                 if (filteredMerch.value) {
                     return shop
                 }
+                else hide
 
 
 
@@ -200,37 +203,6 @@ export default {
 
 
 <style lang="scss" scoped>
-.nav-container {
-    position: relative;
-    z-index: 1000;
-    /* Increased z-index */
-}
-
-.nav {
-    z-index: 1;
-}
-
-.item-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.item-card img {
-    max-width: 300px;
-    max-height: 300px;
-    height: auto;
-}
-
-.item-title {
-    font-weight: bold;
-}
-
-.item-price {
-    color: #ffffff;
-}
-
 .itemImage {
     height: 40dvh;
     max-width: auto;
@@ -257,7 +229,7 @@ export default {
     border: 1px solid rgba(15, 15, 15, 0.26);
 }
 
-.purchase-btn {
+.description-btn {
     position: absolute;
     bottom: -40px;
     /* left: 76px; */
@@ -305,12 +277,24 @@ export default {
     color: var(--bs-danger);
     font-weight: 600;
     border: .15rem solid var(--bs-danger);
+    // margin-left: 1rem;
+}
+
+@media (max-width: 767px) {
+    .filter-buttons {
+        height: 6dvh;
+        width: 20dvw;
+        margin-top: 1rem;
+        // margin-left: 0;
+        // justify-content: space-between;
+    }
+
 }
 
 .filter-buttons:hover {
     background-color: var(--bs-danger);
     color: var(--bs-info);
     text-shadow: 1px 1px 2px var(--bs-info);
-    transition: ease-in-out .5s;
+    transition: ease-in-out .3s;
 }
 </style>
