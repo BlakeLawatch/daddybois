@@ -4,13 +4,13 @@
     </div>
     <main class="container-fluid background-image top-page">
         <section class="row justify-content-center">
-            <div class="col-6 col-md-8 d-flex justify-content-around">
-                <button class="filter-buttons text-uppercase" @click="changeFilter('')">All</button>
-                <button class="filter-buttons text-uppercase" @click="changeFilter(merchType)"
-                    v-for="merchType in merchTypes" :key="merchType">{{ merchType
-                    }}</button>
 
-            </div>
+            <button class="filter-buttons text-uppercase" @click="changeFilter('')">All</button>
+            <button class="filter-buttons text-uppercase" @click="changeFilter(merchType)"
+                v-for="merchType in merchTypes" :key="merchType">{{ merchType
+                }}</button>
+
+
         </section>
 
         <section class="row p-5 justify-content-center">
@@ -277,7 +277,8 @@ export default {
     color: var(--bs-danger);
     font-weight: 600;
     border: .15rem solid var(--bs-danger);
-    // margin-left: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 @media (max-width: 767px) {
@@ -285,8 +286,8 @@ export default {
         height: 6dvh;
         width: 20dvw;
         margin-top: 1rem;
-        // margin-left: 0;
-        // justify-content: space-between;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
 }
