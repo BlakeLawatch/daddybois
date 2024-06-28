@@ -3,10 +3,14 @@
         <Navbar />
     </div>
     <main class="container-fluid background-image top-page">
-        <section class="row">
-            <button @click="changeFilter('')">All</button>
-            <button @click="changeFilter(merchType)" v-for="merchType in merchTypes" :key="merchType">{{ merchType
-                }}</button>
+        <section class="row justify-content-center">
+            <div class="col-10 text-center">
+                <button class="filter-buttons me-3 text-uppercase" @click="changeFilter('')">All</button>
+                <button class="filter-buttons mx-3 text-uppercase" @click="changeFilter(merchType)"
+                    v-for="merchType in merchTypes" :key="merchType">{{ merchType
+                    }}</button>
+
+            </div>
         </section>
 
         <section class="row p-5 justify-content-center">
@@ -291,5 +295,22 @@ export default {
 .dad-hat:hover {
     background-image: url(src/assets/img/ShopImages/DadHat2.png);
     transition: ease-in-out 1s;
+}
+
+.filter-buttons {
+    height: 6dvh;
+    width: 9dvw;
+    border-radius: 30px;
+    background-color: var(--bs-info);
+    color: var(--bs-danger);
+    font-weight: 600;
+    border: .15rem solid var(--bs-danger);
+}
+
+.filter-buttons:hover {
+    background-color: var(--bs-danger);
+    color: var(--bs-info);
+    text-shadow: 1px 1px 2px var(--bs-info);
+    transition: ease-in-out .5s;
 }
 </style>
