@@ -3,9 +3,11 @@
         <Navbar />
     </div>
     <main class="container-fluid background-image top-page">
-        <!-- <section class="row">
-                <button onclick="getMugs()">Mugs</button>
-            </section> -->
+        <section class="row">
+            <button @click="changeFilter('')">All</button>
+            <button @click="changeFilter(merchType)" v-for="merchType in merchTypes" :key="merchType">{{ merchType
+                }}</button>
+        </section>
 
         <section class="row p-5 justify-content-center">
 
@@ -150,7 +152,7 @@
                     $25.95</p>
             </div>
 
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+            <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage dad-hat"></div>
                 <p class="glassCard text-light p-2 text-center purchase-btn">Yellow Dad Hat <br> $25.95 </p>
             </div>
@@ -163,18 +165,28 @@
 
 
 <script>
+import { ref } from 'vue';
+
 
 
 
 export default {
     setup() {
-        function getMugs() {
-            let elem = document.getElementById("mugs")
-            return elem
-            // getMugs
-        }
+        const merchTypes = ['mugs', 'shirts', 'cups', 'misc']
+        const filteredMerch = ref('')
         return {
-            getMugs
+            merchTypes,
+            changeFilter(merch) {
+                // filteredMerch.value = merch
+                let shop = document.getElementById(merch)
+                if (filteredMerch.value) {
+                    return shop
+                }
+
+
+
+            }
+
         }
     }
 }

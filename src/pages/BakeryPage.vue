@@ -27,7 +27,7 @@
         <p class="arima">Chicken Pot Pie ...$7.00</p>
         <p class="arima">Bacon Sandwich ...$5.50</p>
         <p class="arima">Veggie Sandwich ...$5.50</p>
-        <p class="arima">Breakfast Burritos ...$7.95</p>
+        <p class="arima">* Breakfast Burritos ...$7.95</p>
       </div>
       <div class="col-4">
         <h3 class="arima fw-bold">Misc</h3>
@@ -42,9 +42,9 @@
       <div class="col-4">
         <h3 class="arima fw-bold">Scones ...$4.25</h3>
         <p class="arima">Blueberry-lemon</p>
-        <p class="arima">Raspberry-White Chocolate</p>
-        <p class="arima">Pumpkin-Maple Glaze</p>
-        <p class="arima">Snickerdoodle</p>
+        <p class="arima">* Raspberry-White Chocolate</p>
+        <p class="arima">* Pumpkin-Maple Glaze</p>
+        <p class="arima">* Snickerdoodle</p>
       </div>
       <div class="col-4">
         <h3 class="arima fw-bold">Cookies ...$1.75</h3>
@@ -60,6 +60,9 @@
         <p class="arima">Banana</p>
       </div>
     </section>
+    <div class="col-12">
+      <p class="text-center arima fs-5 py-2"><i>* subject to seasonal or daily changes</i></p>
+    </div>
   </div>
   <Bottom />
 </template>
