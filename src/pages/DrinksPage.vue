@@ -15,7 +15,7 @@
           also available of course for anything fancier you may desire!<br /><br /></p>
         <p class="arima fs-5 drinks-shadow">Don’t forget our mimosas! Voted best
           mimosas in town, and rightfully so. Not only are the variety of flavors outrageous, but so is the size.
-          They’re big and they’re plentiful... </p>
+          They’re big, they’re plentiful, and they're 50% off during happy hour <i>5:00 pm - 9:00 pm</i> </p>
       </div>
     </section>
     <section class="row mt-3 justify-content-around pb-5">
