@@ -7,7 +7,7 @@
           :style="{ display: imageIndex === index ? 'block' : 'none' }">
 
         <div class="col-md-5 col-10 position-absolute end-0 top-50 translate-middle-y">
-          <div class="glassCard p-4 text-light" v-for="(paragraph, index) in paragraphs" :key="index"
+          <div class="glassCard p-4 text-light" data-aos="zoom-in" v-for="(paragraph, index) in paragraphs" :key="index"
             :style="{ display: paragraphIndex === index ? 'block' : 'none' }">
             <h4>{{ paragraph }}</h4>
           </div>
