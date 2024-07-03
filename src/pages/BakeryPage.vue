@@ -2,11 +2,14 @@
   <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page">
+      <!-- <video autoplay muted loop id="myVideo">
+        <source src="" type="video/mp4">
+      </video> -->
       <div class="d-flex justify-content-center">
-        <iframe width="500" height="400" src="https://www.youtube.com/embed/ZpUYjpKg9KY?si=_gluCSkjwvU8ozDb"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="1600" height="800"
+          src="https://www.youtube.com/embed/UGvsHQ55Kng?si=6hyjMkzFB3jyC8jx?rel=0&amp;autoplay=1&mute=1"
+          title="YouTube video player" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
 
       </div>
     </section>
@@ -69,16 +72,18 @@
 
 
 <script>
-import Navbar from '../components/Navbar.vue';
 
 
 export default {
   setup() {
 
+
     return {
 
     }
+
   }
+
 };
 </script>
 
