@@ -15,21 +15,26 @@
 
         <section class="row p-5 justify-content-center">
 
-            <!-- <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
-                <FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    
-                </FORM>
-            </div> -->
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="NYL23AU9VCWQ2" />
-                <input type="hidden" name="currency_code" value="USD" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
-                    name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
-                <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
-            </form>
+            <div class="col-md-3 col-10 position-relative text-center my-4">
+                <div class="d-flex justify-content-center pb-5">
+                    <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
+                    <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
+
+                </div>
+                <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="NYL23AU9VCWQ2" />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                            name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                    </form>
+
+                </div>
+
+
+            </div>
+
 
             <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
@@ -228,7 +233,7 @@ export default {
 }
 
 .glassCard {
-    background: rgba(15, 15, 15, 0.354);
+    background: #0f0f0f5a;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8.1px);
@@ -238,7 +243,7 @@ export default {
 
 .description-btn {
     position: absolute;
-    bottom: -40px;
+    bottom: 20px;
     /* left: 76px; */
 }
 
