@@ -15,14 +15,21 @@
 
         <section class="row p-5 justify-content-center">
 
-            <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
+            <!-- <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
-                <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
                 <FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
-
+                    
                 </FORM>
-            </div>
+            </div> -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="NYL23AU9VCWQ2" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                    name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
+            </form>
 
             <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
