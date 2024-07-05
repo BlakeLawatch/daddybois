@@ -19,20 +19,16 @@
                 <div class="d-flex justify-content-center pb-5">
                     <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
                     <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
-
                 </div>
                 <div>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                         <input type="hidden" name="cmd" value="_s-xclick" />
                         <input type="hidden" name="hosted_button_id" value="NYL23AU9VCWQ2" />
                         <input type="hidden" name="currency_code" value="USD" />
                         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
                             name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
                     </form>
-
                 </div>
-
-
             </div>
 
 

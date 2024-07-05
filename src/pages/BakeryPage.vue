@@ -15,7 +15,7 @@
     </section>
     <section class="row mt-5 text-center" data-aos="zoom-in-down">
       <div class="col-4">
-        <h3 class="arima fw-bold">Muffins ...$3.25</h3>
+        <h3 class="arima fw-bold">Muffins</h3>
         <p class="arima">Blueberry</p>
         <p class="arima">Date Bran</p>
         <p class="arima">Apple Walnut</p>
@@ -23,40 +23,40 @@
       </div>
       <div class="col-4">
         <h3 class="arima fw-bold">Savory</h3>
-        <p class="arima">Denver Quiche ...$5.75</p>
-        <p class="arima">Goat Cheese Quiche ...$5.75</p>
-        <p class="arima">Bacon Casserole ...$7.75</p>
-        <p class="arima">Veggie Casserole ...$7.75</p>
-        <p class="arima">Chicken Pot Pie ...$7.00</p>
-        <p class="arima">Bacon Sandwich ...$5.50</p>
-        <p class="arima">Veggie Sandwich ...$5.50</p>
-        <p class="arima">* Breakfast Burritos ...$7.95</p>
+        <p class="arima">Denver Quiche</p>
+        <p class="arima">Goat Cheese Quiche</p>
+        <p class="arima">Bacon Casserole</p>
+        <p class="arima">Veggie Casserole</p>
+        <p class="arima">Chicken Pot Pie</p>
+        <p class="arima">Bacon Sandwich</p>
+        <p class="arima">Veggie Sandwich</p>
+        <p class="arima">* Breakfast Burritos</p>
       </div>
       <div class="col-4">
         <h3 class="arima fw-bold">Misc</h3>
-        <p class="arima">Cinnamon Roll ...$5.75</p>
-        <p class="arima">Caramel Roll ...$6.00</p>
-        <p class="arima">Coffee Cake ...$4.75</p>
-        <p class="arima">Fruit Parfait ...$5.50</p>
-        <p class="arima">Carrot Cake ...$3.50</p>
+        <p class="arima">Cinnamon Roll</p>
+        <p class="arima">Caramel Roll</p>
+        <p class="arima">Coffee Cake</p>
+        <p class="arima">Fruit Parfait</p>
+        <p class="arima">Carrot Cake</p>
       </div>
     </section>
     <section class="row text-center py-5" data-aos="zoom-in-up">
       <div class="col-4">
-        <h3 class="arima fw-bold">Scones ...$4.25</h3>
+        <h3 class="arima fw-bold">Scones</h3>
         <p class="arima">Blueberry-lemon</p>
         <p class="arima">* Raspberry-White Chocolate</p>
         <p class="arima">* Pumpkin-Maple Glaze</p>
         <p class="arima">* Snickerdoodle</p>
       </div>
       <div class="col-4">
-        <h3 class="arima fw-bold">Cookies ...$1.75</h3>
+        <h3 class="arima fw-bold">Cookies</h3>
         <p class="arima">Chocolate Chip</p>
         <p class="arima">Coconut Macaroon</p>
         <p class="arima">Peanut Butter</p>
       </div>
       <div class="col-4">
-        <h3 class="arima fw-bold">Breads ...$3.50</h3>
+        <h3 class="arima fw-bold">Breads</h3>
         <p class="arima">Lemon</p>
         <p class="arima">Chocolate Zucchini</p>
         <p class="arima">Pumpkin</p>
