@@ -6,7 +6,7 @@
         <source src="" type="video/mp4">
       </video> -->
       <div class="d-flex justify-content-center">
-        <iframe width="1600" height="800"
+        <iframe width="1155" height="650"
           src="https://www.youtube.com/embed/UGvsHQ55Kng?si=6hyjMkzFB3jyC8jx?rel=0&amp;autoplay=1&mute=1;&loop=1&list=PL0pkHXBEYrYtGm8Ssy4Ko61RBQyu_ry_n;"
           title="YouTube video player" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
