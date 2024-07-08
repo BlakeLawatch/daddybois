@@ -57,9 +57,9 @@
       </div>
       <div class="col-10 col-md-3 second-bg text-center">
         <p class="fw-bold lily" data-aos="fade-down">Coffee Shop • Café • Bakery</p>
-        <p data-aos="zoom-in" class="fs-5"> 625 W. Main St., Boise, ID 83702 <br>
+        <p data-aos="zoom-in" class="arima fs-5"> 625 W. Main St., Boise, ID 83702 <br>
           208.433.3934 <br>
-          Hours: Monday - Friday: 6:30am - 9:00pm Saturday: 7:00am - 9:00 Sunday: 7am - 7pm <br>
+          Monday - Friday <i>6:30am - 9:00pm</i> Saturday <i>7:00am - 9:00pm</i> <br> Sunday <i>7:00am - 7:00pm</i> <br>
           *Free WIFI <br>
           *Plugins by booths and tables
 

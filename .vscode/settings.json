@@ -23,5 +23,8 @@
     "titleBar.inactiveBackground": "#c82f8999",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#c82f89"
+  "peacock.color": "#c82f89",
+  "cSpell.words": [
+    "Chapstick"
+  ]
 }
