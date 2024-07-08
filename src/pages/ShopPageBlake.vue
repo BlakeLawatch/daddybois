@@ -126,17 +126,17 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/ChampagneGlass.png" alt="">
-                <p class="glassCard text-light p-2 text-center description-btn">Champagne Class <br> $ </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Champagne Class <br> $10.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WaterBottle.png" alt="">
-                <p class="glassCard text-light p-2 text-center description-btn">Water Bottle <br> $ </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Water Bottle <br> $14.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Tumbler.png" alt="">
-                <p class="glassCard text-light p-2 text-center description-btn">Tumbler <br> $ </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Tumbler <br> $12.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -146,12 +146,12 @@
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreenThermos.png" alt="">
-                <p class="glassCard text-light p-2 text-center description-btn">Green Thermos <br>$ </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Green Thermos <br>$16.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/OrangeThermos.png" alt="">
-                <p class="glassCard text-light p-2 text-center description-btn">Orange Thermos <br>$ </p>
+                <p class="glassCard text-light p-2 text-center description-btn">Orange Thermos <br>$16.95 </p>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
