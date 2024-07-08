@@ -55,10 +55,6 @@
                     <br> $12.95
                 </p>
             </div>
-            <!-- 
-             t-shirts 23.95
-             beanie 18.95
-             hats 25.95 -->
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/CornerMug.png" alt="">
