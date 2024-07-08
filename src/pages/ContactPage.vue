@@ -14,8 +14,7 @@
         <p class="arima fs-1 fw-bold">Links</p>
         <div class="link-group">
           <a target="_blank" class="link me-5" href="https://www.goldysbreakfastbistro.com/main.html">Goldys
-            Breakfast
-            Bistro</a>
+            Breakfast Bistro</a>
           <a target="_blank" class="link me-5" href="https://dawsontaylor.com/">Dawson Taylor</a>
           <a target="_blank" class="link" href="https://stagecoachidaho.com/">Stagecoach Inn</a>
         </div>
@@ -92,6 +91,7 @@ export default {
   color: black;
   font-size: 1.5rem;
   font-weight: 600;
+  font-style: italic;
 }
 
 .link:hover {
