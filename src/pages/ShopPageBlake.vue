@@ -36,17 +36,38 @@
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">16 oz Light Blue Mug <br> $12.95
                 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="HTU5ZW7H9G64U" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/BlueMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">16 oz Dark Blue Mug <br> $12.95
                 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="UQNBC7PT47WYS" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 mugs position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/ClearMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">12 oz Glass Mug <br> $12.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="WURX3BPSWJJC4" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -54,6 +75,13 @@
                 <p class="glassCard text-light p-2 text-center description-btn">16 oz Grey/Orange Mug
                     <br> $12.95
                 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="BLX9W78Q85NWS" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -61,6 +89,13 @@
                 <p class="glassCard text-light p-2 text-center description-btn">Goldys Corner 12 oz Mug
                     <br> $12.95
                 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="XLSA6UX2KH832" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -171,6 +206,8 @@
     <Bottom />
 
 </template>
+
+
 
 
 <script>
