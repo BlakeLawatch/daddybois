@@ -418,22 +418,50 @@
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/OrangeThermos.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Orange Thermos <br>$16.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="29CM3AUGAJ56J" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage blue-hat"></div>
                 <p class="glassCard text-light p-2 text-center description-btn">Blue Trucker Hat <br> $25.95</p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="AG5UKR4WFEDUA" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div id="hats" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage gray-hat"></div>
                 <p class="glassCard text-light p-2 text-center description-btn">Gray Trucker Hat <br>
                     $25.95</p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="SH47SZ86B7X22" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div id="hats" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <div class="col-8 itemImage dad-hat"></div>
                 <p class="glassCard text-light p-2 text-center description-btn">Yellow Dad Hat <br> $25.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="8AJ4LRC47B3XW" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
         </section>

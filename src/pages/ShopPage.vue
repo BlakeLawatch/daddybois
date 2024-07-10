@@ -38,7 +38,7 @@ import { ref } from 'vue';
 
 export default {
   setup() {
-    const merchTypes = ['mugs', 'shirts', 'cups', 'hats', 'misc'];
+    const merchTypes = ['mugs', 'shirts', 'coffee', 'hats', 'misc'];
     const merchItems = ref([
       { id: 1, type: 'mugs', image: 'src/assets/img/ShopImages/BrownMug.png', description: '16 oz Brown Mug', price: '$12.95', paypalButtonId: 'NYL23AU9VCWQ2' },
       { id: 2, type: 'mugs', image: 'src/assets/img/ShopImages/BlueDarkblueMug.png', description: '16 oz Light Blue Mug', price: '$12.95' },
