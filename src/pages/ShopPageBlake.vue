@@ -358,26 +358,61 @@
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/ChampagneGlass.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Champagne Class <br> $10.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="RUYB6NBTEL77E" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/WaterBottle.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Water Bottle <br> $14.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="P2UZJGLLXLD88" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Tumbler.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Tumbler <br> $12.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="EKAQYT99LPJCC" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GoldysSpice.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Goldys Spice Mix <br> $12.95</p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="9KMJJ33MBQ87A" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GreenThermos.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Green Thermos <br>$16.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="7QWGY7NKFF3CA" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
