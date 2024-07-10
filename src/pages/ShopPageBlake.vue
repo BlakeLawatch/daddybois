@@ -102,6 +102,13 @@
                 <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Dawson Taylor Ground
                     Coffee <br> $15.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="TJ63CA4FWK54Q" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
@@ -109,28 +116,141 @@
                 <p class="glassCard text-light p-2 text-center description-btn">Dawson Taylor Whole
                     Coffee Beans <br> $15.95
                 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="5VTDUAGXCCW8G" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Black Beanie <br> $18.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="LJJ4E24V9Y7XQ" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Gray Woman's Shirt <br> $23.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="8ZJTRRMD9NRRE" />
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="hidden" name="on0" value="Size" />
+                                Size
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="os0">
+                                    <option value="Small">
+                                        Small
+                                    </option>
+                                    <option value="Medium">
+                                        Medium
+                                    </option>
+                                    <option value="Large">
+                                        Large
+                                    </option>
+                                    <option value="X-Large">
+                                        X-Large
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Pink Woman's Shirt <br> $23.95 </p>
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="64ADW4AD65ZNN" />
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="hidden" name="on0" value="Size" />
+                                Size
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="os0">
+                                    <option value="Small">
+                                        Small
+                                    </option>
+                                    <option value="Medium">
+                                        Medium
+                                    </option>
+                                    <option value="Large">
+                                        Large
+                                    </option>
+                                    <option value="X-Large">
+                                        X-Large
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form> -->
             </div>
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Purple Woman's Shirt <br> $23.95 </p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="SUEZXHWCKV7QU" />
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="hidden" name="on0" value="Size" />
+                                Size
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="os0">
+                                    <option value="Small">
+                                        Small
+                                    </option>
+                                    <option value="Medium">
+                                        Medium
+                                    </option>
+                                    <option value="Large">
+                                        Large
+                                    </option>
+                                    <option value="X-Large">
+                                        X-Large
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
+                        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
