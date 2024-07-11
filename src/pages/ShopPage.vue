@@ -88,14 +88,14 @@ export default {
       { id: 15, type: 'misc', image: 'src/assets/img/ShopImages/Chapstick.png', description: 'Goldys Chap Stick', price: '$2.00', paypalButtonId: 'JR37TTV8MXRBU' },
       { id: 16, type: 'misc', image: 'src/assets/img/ShopImages/GiftCard.png', description: 'Gift Card, works at restaurant and corner', price: '$2.00', paypalButtonId: 'KKWVD7WUR2RRL' },
       { id: 17, type: 'misc', image: 'src/assets/img/ShopImages/ChampagneGlass.png', description: 'Champagne Glass', price: '$10.95', paypalButtonId: 'RUYB6NBTEL77E' },
-      { id: 18, type: 'misc', image: 'src/assets/img/ShopImages/WaterBottle.png', description: 'Add To Cart', price: '' },
-      { id: 19, type: 'misc', image: 'src/assets/img/ShopImages/Tumbler.png', description: 'Add To Cart', price: '' },
-      { id: 20, type: 'misc', image: 'src/assets/img/ShopImages/GoldysSpice.png', description: 'Goldys Spice Mix', price: '$12.95' },
-      { id: 21, type: 'misc', image: 'src/assets/img/ShopImages/GreenThermos.png', description: 'Add To Cart', price: '' },
-      { id: 22, type: 'misc', image: 'src/assets/img/ShopImages/OrangeThermos.png', description: 'Add To Cart', price: '' },
-      { id: 23, type: 'hats', image: 'src/assets/img/ShopImages/BlueTruckerHat1.png', description: 'Blue Trucker Hat', price: '$25.95' },
-      { id: 24, type: 'hats', image: 'src/assets/img/ShopImages/GrayTruckerHat1.png', description: 'Gray Trucker Hat', price: '$25.95' },
-      { id: 25, type: 'hats', image: 'src/assets/img/ShopImages/DadHat1.png', description: 'Yellow Dad Hat', price: '$25.95' }
+      { id: 18, type: 'misc', image: 'src/assets/img/ShopImages/WaterBottle.png', description: 'Water Bottle', price: '$14.95', paypalButtonId: 'P2UZJGLLXLD88' },
+      { id: 19, type: 'misc', image: 'src/assets/img/ShopImages/Tumbler.png', description: 'Tumbler', price: '12.95', paypalButtonId: 'EKAQYT99LPJCC' },
+      { id: 20, type: 'misc', image: 'src/assets/img/ShopImages/GoldysSpice.png', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
+      { id: 21, type: 'misc', image: 'src/assets/img/ShopImages/GreenThermos.png', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
+      { id: 22, type: 'misc', image: 'src/assets/img/ShopImages/OrangeThermos.png', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
+      { id: 23, type: 'hats', image: 'src/assets/img/ShopImages/BlueTruckerHat1.png', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
+      { id: 24, type: 'hats', image: 'src/assets/img/ShopImages/GrayTruckerHat1.png', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
+      { id: 25, type: 'hats', image: 'src/assets/img/ShopImages/DadHat1.png', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' }
     ]);
     const filteredMerch = ref(merchItems.value);
 
