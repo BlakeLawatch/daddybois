@@ -21,13 +21,13 @@
                     <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
                 </div>
                 <div>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                         <input type="hidden" name="cmd" value="_s-xclick" />
                         <input type="hidden" name="hosted_button_id" value="NYL23AU9VCWQ2" />
                         <input type="hidden" name="currency_code" value="USD" />
                         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
                             name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
-                    </form>
+                    </form> -->
                 </div>
             </div>
 
@@ -141,7 +141,7 @@
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
                 <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Gray Woman's Shirt <br> $23.95 </p>
-                <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
                     <input type="hidden" name="hosted_button_id" value="8ZJTRRMD9NRRE" />
                     <table>
@@ -173,7 +173,7 @@
                     <input type="hidden" name="currency_code" value="USD" />
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
                         name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
-                </form> -->
+                </form>
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">

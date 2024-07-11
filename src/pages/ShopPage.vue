@@ -18,10 +18,36 @@
           <p class="description-btn text-center glassCard p-2 text-light">{{ item.description }} <br> {{ item.price }}
           </p>
         </div>
-        <div v-if="item.paypalButtonId">
+        <div class="d-flex justify-content-center" v-if="item.paypalButtonId">
           <form :action="'https://www.paypal.com/cgi-bin/webscr'" method="post" target="_blank">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" :value="item.paypalButtonId" />
+            <table class="text-center" v-if="item.size">
+              <tr>
+                <td>
+                  <input type="hidden" name="on0" :value="item.size" />
+                  Size
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="os0">
+                    <option value="Small">
+                      Small
+                    </option>
+                    <option value="Medium">
+                      Medium
+                    </option>
+                    <option value="Large">
+                      Large
+                    </option>
+                    <option value="X-Large">
+                      X-Large
+                    </option>
+                  </select>
+                </td>
+              </tr>
+            </table>
             <input type="hidden" name="currency_code" value="USD" />
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
               name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
@@ -41,15 +67,15 @@ export default {
     const merchTypes = ['mugs', 'shirts', 'coffee', 'hats', 'misc'];
     const merchItems = ref([
       { id: 1, type: 'mugs', image: 'src/assets/img/ShopImages/BrownMug.png', description: '16 oz Brown Mug', price: '$12.95', paypalButtonId: 'NYL23AU9VCWQ2' },
-      { id: 2, type: 'mugs', image: 'src/assets/img/ShopImages/BlueDarkblueMug.png', description: '16 oz Light Blue Mug', price: '$12.95' },
-      { id: 3, type: 'mugs', image: 'src/assets/img/ShopImages/BlueMug.png', description: '16 oz Dark Blue Mug', price: '$12.95' },
-      { id: 4, type: 'mugs', image: 'src/assets/img/ShopImages/ClearMug.png', description: '12 oz Glass Mug', price: '$12.95' },
-      { id: 5, type: 'mugs', image: 'src/assets/img/ShopImages/GreyOrangeMug.png', description: '16 oz Grey/Orange Mug', price: '$12.95' },
-      { id: 6, type: 'mugs', image: 'src/assets/img/ShopImages/CornerMug.png', description: 'Goldys Corner 12 oz Mug', price: '$12.95' },
-      { id: 7, type: 'coffee', image: 'src/assets/img/ShopImages/GroundCoffeeBeans.png', description: 'Dawson Taylor Ground Coffee', price: '$15.95' },
-      { id: 8, type: 'coffee', image: 'src/assets/img/ShopImages/WholeCoffeeBeans.png', description: 'Dawson Taylor Whole Coffee Beans', price: '$15.95' },
-      { id: 9, type: 'hats', image: 'src/assets/img/ShopImages/Beanie.png', description: 'Black Beanie', price: '$18.95' },
-      { id: 10, type: 'shirts', image: 'src/assets/img/ShopImages/GrayWomansShirt.png', description: 'Gray Woman\'s Shirt', price: '$23.95' },
+      { id: 2, type: 'mugs', image: 'src/assets/img/ShopImages/BlueDarkblueMug.png', description: '16 oz Light Blue Mug', price: '$12.95', paypalButtonId: 'HTU5ZW7H9G64U' },
+      { id: 3, type: 'mugs', image: 'src/assets/img/ShopImages/BlueMug.png', description: '16 oz Dark Blue Mug', price: '$12.95', paypalButtonId: 'UQNBC7PT47WYS' },
+      { id: 4, type: 'mugs', image: 'src/assets/img/ShopImages/ClearMug.png', description: '12 oz Glass Mug', price: '$12.95', paypalButtonId: 'WURX3BPSWJJC4' },
+      { id: 5, type: 'mugs', image: 'src/assets/img/ShopImages/GreyOrangeMug.png', description: '16 oz Grey/Orange Mug', price: '$12.95', paypalButtonId: 'BLX9W78Q85NWS' },
+      { id: 6, type: 'mugs', image: 'src/assets/img/ShopImages/CornerMug.png', description: 'Goldys Corner 12 oz Mug', price: '$12.95', paypalButtonId: 'XLSA6UX2KH832' },
+      { id: 7, type: 'coffee', image: 'src/assets/img/ShopImages/GroundCoffeeBeans.png', description: 'Dawson Taylor Ground Coffee', price: '$15.95', paypalButtonId: 'TJ63CA4FWK54Q' },
+      { id: 8, type: 'coffee', image: 'src/assets/img/ShopImages/WholeCoffeeBeans.png', description: 'Dawson Taylor Whole Coffee Beans', price: '$15.95', paypalButtonId: '5VTDUAGXCCW8G' },
+      { id: 9, type: 'hats', image: 'src/assets/img/ShopImages/Beanie.png', description: 'Black Beanie', price: '$18.95', paypalButtonId: 'LJJ4E24V9Y7XQ' },
+      { id: 10, type: 'shirts', image: 'src/assets/img/ShopImages/GrayWomansShirt.png', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 'Small, Medium, Large, X-large' },
       { id: 11, type: 'shirts', image: 'src/assets/img/ShopImages/PinkWomansShirt.png', description: 'Pink Woman\'s Shirt', price: '$23.95' },
       { id: 12, type: 'shirts', image: 'src/assets/img/ShopImages/PurpleWomansShirt.png', description: 'Purple Woman\'s Shirt', price: '$23.95' },
       { id: 13, type: 'shirts', image: 'src/assets/img/ShopImages/GrayMensShirt.png', description: 'Gray Men\'s Shirt', price: '$23.95' },
