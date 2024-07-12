@@ -14,6 +14,7 @@
     <section class="row p-5 justify-content-center">
       <div v-for="item in filteredMerch" :key="item.id" class="col-md-3 col-10 position-relative text-center my-4">
         <div class="d-flex justify-content-center pb-5">
+          <!-- <div v-if="item.class"></div> -->
           <img class="itemImage" :src="item.image" alt="">
           <p class="description-btn text-center glassCard p-2 text-light">{{ item.description }} <br> {{ item.price }}
           </p>
