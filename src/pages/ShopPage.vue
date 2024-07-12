@@ -22,37 +22,32 @@
           <form :action="'https://www.paypal.com/cgi-bin/webscr'" method="post" target="_blank">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" :value="item.paypalButtonId" />
-            <div>
-              <table class="text-center" v-if="item.size">
-                <tr>
-                  <td>
-                    <input type="hidden" name="on0" :value="item.size" />
-                    Size
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <select name="os0">
-                      <option value="Small">
-                        Small
-                      </option>
-                      <option value="Medium">
-                        Medium
-                      </option>
-                      <option value="Large">
-                        Large
-                      </option>
-                      <option value="X-Large">
-                        X-Large
-                      </option>
-                    </select>
-                  </td>
-                </tr>
-              </table>
-
-            </div>
-
-
+            <table class="text-center" v-if="item.size">
+              <tr>
+                <td>
+                  <input type="hidden" name="on0" :value="item.size" />
+                  Size
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="os0">
+                    <option value="Small">
+                      Small
+                    </option>
+                    <option value="Medium">
+                      Medium
+                    </option>
+                    <option value="Large">
+                      Large
+                    </option>
+                    <option value="X-Large">
+                      X-Large
+                    </option>
+                  </select>
+                </td>
+              </tr>
+            </table>
             <input type="hidden" name="currency_code" value="USD" />
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0"
               name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
@@ -80,22 +75,22 @@ export default {
       { id: 7, type: 'coffee', image: 'src/assets/img/ShopImages/GroundCoffeeBeans.png', description: 'Dawson Taylor Ground Coffee', price: '$15.95', paypalButtonId: 'TJ63CA4FWK54Q' },
       { id: 8, type: 'coffee', image: 'src/assets/img/ShopImages/WholeCoffeeBeans.png', description: 'Dawson Taylor Whole Coffee Beans', price: '$15.95', paypalButtonId: '5VTDUAGXCCW8G' },
       { id: 9, type: 'hats', image: 'src/assets/img/ShopImages/Beanie.png', description: 'Black Beanie', price: '$18.95', paypalButtonId: 'LJJ4E24V9Y7XQ' },
-      { id: 10, type: 'shirts', image: 'src/assets/img/ShopImages/GrayWomansShirt.png', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
-      { id: 11, type: 'shirts', image: 'src/assets/img/ShopImages/PinkWomansShirt.png', description: 'Pink Woman\'s Shirt', price: '$23.95', paypalButtonId: '64ADW4AD65ZNN', size: 's' },
-      { id: 12, type: 'shirts', image: 'src/assets/img/ShopImages/PurpleWomansShirt.png', description: 'Purple Woman\'s Shirt', price: '$23.95', paypalButtonId: 'SUEZXHWCKV7QU', size: 's' },
-      { id: 13, type: 'shirts', image: 'src/assets/img/ShopImages/GrayMensShirt.png', description: 'Gray Men\'s Shirt', price: '$23.95', paypalButtonId: 'H6X469CYDMU4G', size: 's' },
-      { id: 14, type: 'shirts', image: 'src/assets/img/ShopImages/BlueMensShirt.png', description: 'Blue Men\'s Shirt', price: '$23.95', paypalButtonId: 'ZJEFZGRS4REU8', size: 's' },
-      { id: 15, type: 'misc', image: 'src/assets/img/ShopImages/Chapstick.png', description: 'Goldys Chap Stick', price: '$2.00', paypalButtonId: 'JR37TTV8MXRBU' },
-      { id: 16, type: 'misc', image: 'src/assets/img/ShopImages/GiftCard.png', description: 'Gift Card, works at restaurant and corner', price: '$2.00', paypalButtonId: 'KKWVD7WUR2RRL' },
-      { id: 17, type: 'misc', image: 'src/assets/img/ShopImages/ChampagneGlass.png', description: 'Champagne Glass', price: '$10.95', paypalButtonId: 'RUYB6NBTEL77E' },
-      { id: 18, type: 'misc', image: 'src/assets/img/ShopImages/WaterBottle.png', description: 'Water Bottle', price: '$14.95', paypalButtonId: 'P2UZJGLLXLD88' },
-      { id: 19, type: 'misc', image: 'src/assets/img/ShopImages/Tumbler.png', description: 'Tumbler', price: '12.95', paypalButtonId: 'EKAQYT99LPJCC' },
-      { id: 20, type: 'misc', image: 'src/assets/img/ShopImages/GoldysSpice.png', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
-      { id: 21, type: 'misc', image: 'src/assets/img/ShopImages/GreenThermos.png', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
-      { id: 22, type: 'misc', image: 'src/assets/img/ShopImages/OrangeThermos.png', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
-      { id: 23, type: 'hats', image: 'src/assets/img/ShopImages/BlueTruckerHat1.png', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
-      { id: 24, type: 'hats', image: 'src/assets/img/ShopImages/GrayTruckerHat1.png', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
-      { id: 25, type: 'hats', image: 'src/assets/img/ShopImages/DadHat1.png', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' }
+      { id: 10, type: 'misc', image: 'src/assets/img/ShopImages/Chapstick.png', description: 'Goldys Chap Stick', price: '$2.00', paypalButtonId: 'JR37TTV8MXRBU' },
+      { id: 11, type: 'misc', image: 'src/assets/img/ShopImages/GiftCard.png', description: 'Gift Card, works at restaurant and corner', price: '$2.00', paypalButtonId: 'KKWVD7WUR2RRL' },
+      { id: 12, type: 'misc', image: 'src/assets/img/ShopImages/ChampagneGlass.png', description: 'Champagne Glass', price: '$10.95', paypalButtonId: 'RUYB6NBTEL77E' },
+      { id: 13, type: 'misc', image: 'src/assets/img/ShopImages/WaterBottle.png', description: 'Water Bottle', price: '$14.95', paypalButtonId: 'P2UZJGLLXLD88' },
+      { id: 14, type: 'misc', image: 'src/assets/img/ShopImages/Tumbler.png', description: 'Tumbler', price: '12.95', paypalButtonId: 'EKAQYT99LPJCC' },
+      { id: 15, type: 'misc', image: 'src/assets/img/ShopImages/GoldysSpice.png', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
+      { id: 16, type: 'misc', image: 'src/assets/img/ShopImages/GreenThermos.png', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
+      { id: 17, type: 'misc', image: 'src/assets/img/ShopImages/OrangeThermos.png', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
+      { id: 18, type: 'hats', image: 'src/assets/img/ShopImages/BlueTruckerHat1.png', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
+      { id: 19, type: 'hats', image: 'src/assets/img/ShopImages/GrayTruckerHat1.png', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
+      { id: 20, type: 'hats', image: 'src/assets/img/ShopImages/DadHat1.png', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' },
+      { id: 21, type: 'shirts', image: 'src/assets/img/ShopImages/GrayWomansShirt.png', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
+      { id: 22, type: 'shirts', image: 'src/assets/img/ShopImages/PinkWomansShirt.png', description: 'Pink Woman\'s Shirt', price: '$23.95', paypalButtonId: '64ADW4AD65ZNN', size: 's' },
+      { id: 23, type: 'shirts', image: 'src/assets/img/ShopImages/PurpleWomansShirt.png', description: 'Purple Woman\'s Shirt', price: '$23.95', paypalButtonId: 'SUEZXHWCKV7QU', size: 's' },
+      { id: 24, type: 'shirts', image: 'src/assets/img/ShopImages/GrayMensShirt.png', description: 'Gray Men\'s Shirt', price: '$23.95', paypalButtonId: 'H6X469CYDMU4G', size: 's' },
+      { id: 25, type: 'shirts', image: 'src/assets/img/ShopImages/BlueMensShirt.png', description: 'Blue Men\'s Shirt', price: '$23.95', paypalButtonId: 'ZJEFZGRS4REU8', size: 's' },
     ]);
     const filteredMerch = ref(merchItems.value);
 
@@ -131,7 +126,7 @@ export default {
 
 .itemImage:hover {
   box-shadow: 0px 0px 20px #2c2519;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .glassCard {
@@ -145,7 +140,7 @@ export default {
 
 .description-btn {
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
 }
 
 .bground-img {
