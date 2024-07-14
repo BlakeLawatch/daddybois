@@ -151,32 +151,7 @@ export default {
   box-shadow: inset 0px 10px 10px rgb(93, 91, 91);
 }
 
-.blue-hat {
-  background-image: url(src/assets/img/ShopImages/BlueTruckerHat1.png);
-}
 
-.blue-hat:hover {
-  background-image: url(src/assets/img/ShopImages/BlueTruckerHat2.png);
-  transition: ease-in-out 1s;
-}
-
-.gray-hat {
-  background-image: url(src/assets/img/ShopImages/GrayTruckerHat1.png);
-}
-
-.gray-hat:hover {
-  background-image: url(src/assets/img/ShopImages/GrayTruckerHat2.png);
-  transition: ease-in-out 1s;
-}
-
-.dad-hat {
-  background-image: url(src/assets/img/ShopImages/DadHat1.png);
-}
-
-.dad-hat:hover {
-  background-image: url(src/assets/img/ShopImages/DadHat2.png);
-  transition: ease-in-out 1s;
-}
 
 .filter-buttons {
   height: 6dvh;
