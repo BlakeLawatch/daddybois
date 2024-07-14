@@ -29,12 +29,12 @@
             Shop
           </router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link :to="{ name: 'ShopBlake' }" class="btn border-side text-success select text-uppercase"
             title="Shop Page">
             ShopBlake
           </router-link>
-        </li>
+        </li> -->
         <li>
           <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-success select text-uppercase"
             title="Night Menu Page">
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .select {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .select:hover {
