@@ -113,22 +113,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.itemImage {
-  height: 40dvh;
-  max-width: auto;
-  background-size: cover;
-  background-position: center;
-  border-radius: 20px;
-  box-shadow: 0px 0px 20px #423826;
-  border: solid thick #00000082;
-  overflow: hidden;
-  transition: transform ease-in-out 1s;
-}
+// .itemImage {
+//   height: 40dvh;
+//   max-width: auto;
+//   background-size: cover;
+//   background-position: center;
+//   border-radius: 20px;
+//   box-shadow: 0px 0px 20px #423826;
+//   border: solid thick #00000082;
+//   overflow: hidden;
+//   transition: transform ease-in-out 1s;
+// }
 
-.itemImage:hover {
-  box-shadow: 0px 0px 20px #2c2519;
-  transform: scale(1.1);
-}
+// .itemImage:hover {
+//   box-shadow: 0px 0px 20px #2c2519;
+//   transform: scale(1.05);
+// }
 
 .glassCard {
   background: #0f0f0f5a;
@@ -180,5 +180,21 @@ export default {
   color: var(--bs-info);
   text-shadow: 1px 1px 2px var(--bs-info);
   transition: ease-in-out .3s;
+}
+
+.itemImage {
+  height: 40dvh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #423826;
+  border: solid thick #00000082;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.itemImage:hover {
+  box-shadow: 0px 0px 20px #2c2519;
+  transform: scale(1.05);
 }
 </style>
