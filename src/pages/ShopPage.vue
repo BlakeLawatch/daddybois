@@ -15,7 +15,7 @@
       <div v-for="item in filteredMerch" :key="item.id" class="col-md-3 col-10 position-relative text-center my-4">
         <div class="d-flex justify-content-center pb-5">
           <!-- <div v-if="item.class"></div> -->
-          <img class="itemImage" :src="item.image" alt="">
+          <img class="itemImage" :src="item.image">
           <p class="description-btn text-center glassCard p-2 text-light">{{ item.description }} <br> {{ item.price }}
           </p>
         </div>
@@ -76,22 +76,22 @@ export default {
       { id: 7, type: 'coffee', image: 'src/assets/img/ShopImages/GroundCoffeeBeans.png', description: 'Dawson Taylor Ground Coffee', price: '$15.95', paypalButtonId: 'TJ63CA4FWK54Q' },
       { id: 8, type: 'coffee', image: 'src/assets/img/ShopImages/WholeCoffeeBeans.png', description: 'Dawson Taylor Whole Coffee Beans', price: '$15.95', paypalButtonId: '5VTDUAGXCCW8G' },
       { id: 9, type: 'hats', image: 'src/assets/img/ShopImages/Beanie.png', description: 'Black Beanie', price: '$18.95', paypalButtonId: 'LJJ4E24V9Y7XQ' },
-      { id: 10, type: 'misc', image: 'src/assets/img/ShopImages/Chapstick.png', description: 'Goldys Chap Stick', price: '$2.00', paypalButtonId: 'JR37TTV8MXRBU' },
-      { id: 11, type: 'misc', image: 'src/assets/img/ShopImages/GiftCard.png', description: 'Gift Card, works at restaurant and corner', price: '$2.00', paypalButtonId: 'KKWVD7WUR2RRL' },
-      { id: 12, type: 'misc', image: 'src/assets/img/ShopImages/ChampagneGlass.png', description: 'Champagne Glass', price: '$10.95', paypalButtonId: 'RUYB6NBTEL77E' },
-      { id: 13, type: 'misc', image: 'src/assets/img/ShopImages/WaterBottle.png', description: 'Water Bottle', price: '$14.95', paypalButtonId: 'P2UZJGLLXLD88' },
-      { id: 14, type: 'misc', image: 'src/assets/img/ShopImages/Tumbler.png', description: 'Tumbler', price: '12.95', paypalButtonId: 'EKAQYT99LPJCC' },
-      { id: 15, type: 'misc', image: 'src/assets/img/ShopImages/GoldysSpice.png', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
-      { id: 16, type: 'misc', image: 'src/assets/img/ShopImages/GreenThermos.png', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
-      { id: 17, type: 'misc', image: 'src/assets/img/ShopImages/OrangeThermos.png', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
-      { id: 18, type: 'hats', image: 'src/assets/img/ShopImages/BlueTruckerHat1.png', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
-      { id: 19, type: 'hats', image: 'src/assets/img/ShopImages/GrayTruckerHat1.png', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
-      { id: 20, type: 'hats', image: 'src/assets/img/ShopImages/DadHat1.png', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' },
-      { id: 21, type: 'shirts', image: 'src/assets/img/ShopImages/GrayWomansShirt.png', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
-      { id: 22, type: 'shirts', image: 'src/assets/img/ShopImages/PinkWomansShirt.png', description: 'Pink Woman\'s Shirt', price: '$23.95', paypalButtonId: '64ADW4AD65ZNN', size: 's' },
-      { id: 23, type: 'shirts', image: 'src/assets/img/ShopImages/PurpleWomansShirt.png', description: 'Purple Woman\'s Shirt', price: '$23.95', paypalButtonId: 'SUEZXHWCKV7QU', size: 's' },
-      { id: 24, type: 'shirts', image: 'src/assets/img/ShopImages/GrayMensShirt.png', description: 'Gray Men\'s Shirt', price: '$23.95', paypalButtonId: 'H6X469CYDMU4G', size: 's' },
-      { id: 25, type: 'shirts', image: 'src/assets/img/ShopImages/BlueMensShirt.png', description: 'Blue Men\'s Shirt', price: '$23.95', paypalButtonId: 'ZJEFZGRS4REU8', size: 's' },
+      // { id: 10, type: 'misc', image: 'src/assets/img/ShopImages/Chapstick.png', description: 'Goldys Chap Stick', price: '$2.00', paypalButtonId: 'JR37TTV8MXRBU' },
+      { id: 10, type: 'misc', image: 'src/assets/img/ShopImages/GiftCard.png', description: 'Gift Card, works at restaurant and corner', price: '$2.00', paypalButtonId: 'KKWVD7WUR2RRL' },
+      { id: 11, type: 'misc', image: 'src/assets/img/ShopImages/ChampagneGlass.png', description: 'Champagne Glass', price: '$10.95', paypalButtonId: 'RUYB6NBTEL77E' },
+      { id: 12, type: 'misc', image: 'src/assets/img/ShopImages/WaterBottle.png', description: 'Water Bottle', price: '$14.95', paypalButtonId: 'P2UZJGLLXLD88' },
+      { id: 13, type: 'misc', image: 'src/assets/img/ShopImages/Tumbler.png', description: 'Tumbler', price: '12.95', paypalButtonId: 'EKAQYT99LPJCC' },
+      { id: 14, type: 'misc', image: 'src/assets/img/ShopImages/GoldysSpice.png', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
+      { id: 15, type: 'misc', image: 'src/assets/img/ShopImages/GreenThermos.png', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
+      { id: 16, type: 'misc', image: 'src/assets/img/ShopImages/OrangeThermos.png', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
+      { id: 17, type: 'hats', image: 'src/assets/img/ShopImages/BlueTruckerHat1.png', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
+      { id: 18, type: 'hats', image: 'src/assets/img/ShopImages/GrayTruckerHat1.png', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
+      { id: 19, type: 'hats', image: 'src/assets/img/ShopImages/DadHat1.png', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' },
+      { id: 20, type: 'shirts', image: 'src/assets/img/ShopImages/GrayWomansShirt.png', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
+      { id: 21, type: 'shirts', image: 'src/assets/img/ShopImages/PinkWomansShirt.png', description: 'Pink Woman\'s Shirt', price: '$23.95', paypalButtonId: '64ADW4AD65ZNN', size: 's' },
+      { id: 22, type: 'shirts', image: 'src/assets/img/ShopImages/PurpleWomansShirt.png', description: 'Purple Woman\'s Shirt', price: '$23.95', paypalButtonId: 'SUEZXHWCKV7QU', size: 's' },
+      { id: 23, type: 'shirts', image: 'src/assets/img/ShopImages/GrayMensShirt.png', description: 'Gray Men\'s Shirt', price: '$23.95', paypalButtonId: 'H6X469CYDMU4G', size: 's' },
+      { id: 24, type: 'shirts', image: 'src/assets/img/ShopImages/BlueMensShirt.png', description: 'Blue Men\'s Shirt', price: '$23.95', paypalButtonId: 'ZJEFZGRS4REU8', size: 's' },
     ]);
     const filteredMerch = ref(merchItems.value);
 
