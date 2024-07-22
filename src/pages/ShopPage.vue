@@ -184,7 +184,7 @@ export default {
 
 .itemImage {
   height: 40dvh;
-  width: 100%;
+  width: 15dvw;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 20px #423826;
