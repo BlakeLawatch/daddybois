@@ -46,7 +46,7 @@ a:hover {
 }
 
 .bg-img {
-    background-image: url(src/assets/img/Header-Gradient.png);
+    background-image: url(/img/Header-Gradient.png);
     background-position: center;
     background-size: cover;
 }

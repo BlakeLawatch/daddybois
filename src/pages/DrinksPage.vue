@@ -3,7 +3,7 @@
   <div class="container-fluid background-image">
     <section class="row top-page mb-5">
       <div class="col-12 col-md-5 text-center">
-        <img src="src/assets/img/dawson taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
+        <img src="/img/dawson_taylor.png" alt="Dawson Taylor" title="Dawson Taylor Logo">
       </div>
       <div data-aos="fade-left" class="col-12 col-md-7">
         <p class="arima fs-5 drinks-shadow">We are proud to say that all of our coffee is served
@@ -70,7 +70,6 @@
   <div class="modal fade" id="latte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <img class="rounded" src="src/assets/img/drinks.png" alt="">
       </div>
     </div>
   </div>

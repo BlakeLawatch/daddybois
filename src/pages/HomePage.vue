@@ -81,9 +81,9 @@ export default {
     return {
       imageIndex: 0,
       images: [
-        { src: "src/assets/img/Mimosa.png" },
-        { src: "src/assets/img/latte.jpg" },
-        { src: "src/assets/img/Cases.png" }
+        { src: "/img/Mimosa.png" },
+        { src: "/img/latte.jpg" },
+        { src: "/img/Cases.png" }
       ],
       textIndex: 0,
       texts: [
@@ -132,7 +132,7 @@ export default {
 // }
 
 .bground-img {
-  background-image: url(src/assets/img/WhiteParchment.png);
+  background-image: url(/img/WhiteParchment.png);
   background-position: center;
   background-size: cover;
   box-shadow: inset 0px 10px 10px rgb(93, 91, 91);

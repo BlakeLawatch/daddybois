@@ -34,9 +34,9 @@ export default {
     return {
       imageIndex: 0,
       images: [
-        { src: "src/assets/img/drinks.png" },
-        { src: "src/assets/img/coffee.png" },
-        { src: "src/assets/img/food.png" }
+        { src: "/img/drinks.png" },
+        { src: "/img/coffee.png" },
+        { src: "/img/food.png" }
       ],
       textIndex: 0,
       texts: [

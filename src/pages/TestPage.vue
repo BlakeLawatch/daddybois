@@ -50,9 +50,9 @@ export default {
     return {
       imageIndex: 0,
       images: [
-        { src: "src/assets/img/latte.jpg" },
-        { src: "src/assets/img/outside.jpg" },
-        { src: "src/assets/img/food.png" }
+        { src: "/img/latte.jpg" },
+        { src: "/img/outside.jpg" },
+        { src: "/img/food.png" }
       ],
       paragraphIndex: 0,
       paragraphs: [

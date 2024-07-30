@@ -17,7 +17,7 @@
 
             <div class="col-md-3 col-10 position-relative text-center my-4">
                 <div class="d-flex justify-content-center pb-5">
-                    <img class="itemImage" src="src/assets/img/ShopImages/BrownMug.png" alt="">
+                    <img class="itemImage" src="/img/ShopImages/BrownMug.png" alt="">
                     <p class="description-btn text-center glassCard p-2 text-light">16 oz Brown Mug <br> $12.95 </p>
                 </div>
                 <div>
@@ -33,7 +33,7 @@
 
 
             <div id="mugs" class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BlueDarkblueMug.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/BlueDarkblueMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">16 oz Light Blue Mug <br> $12.95
                 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -46,7 +46,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BlueMug.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/BlueMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">16 oz Dark Blue Mug <br> $12.95
                 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -59,7 +59,7 @@
             </div>
 
             <div class="col-md-3 col-10 mugs position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/ClearMug.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/ClearMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">12 oz Glass Mug <br> $12.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -71,7 +71,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GreyOrangeMug.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GreyOrangeMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">16 oz Grey/Orange Mug
                     <br> $12.95
                 </p>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/CornerMug.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/CornerMug.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Goldys Corner 12 oz Mug
                     <br> $12.95
                 </p>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GroundCoffeeBeans.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GroundCoffeeBeans.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Dawson Taylor Ground
                     Coffee <br> $15.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -112,7 +112,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/WholeCoffeeBeans.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/WholeCoffeeBeans.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Dawson Taylor Whole
                     Coffee Beans <br> $15.95
                 </p>
@@ -126,7 +126,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/Beanie.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/Beanie.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Black Beanie <br> $18.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -139,7 +139,7 @@
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GrayWomansShirt.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GrayWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Gray Woman's Shirt <br> $23.95 </p>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -177,7 +177,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/PinkWomansShirt.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/PinkWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Pink Woman's Shirt <br> $23.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -216,7 +216,7 @@
 
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/PurpleWomansShirt.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/PurpleWomansShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Purple Woman's Shirt <br> $23.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -254,7 +254,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GrayMensShirt.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GrayMensShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Gray Men's Shirt <br> $23.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -292,7 +292,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/BlueMensShirt.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/BlueMensShirt.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Blue Men's Shirt <br> $23.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -330,7 +330,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/Chapstick.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/Chapstick.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Goldys Chap Stick <br> $2.00 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -342,7 +342,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GiftCard.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GiftCard.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Gift Card <br> <i>works at restaurant
                         and
                         corner</i> </p>
@@ -356,7 +356,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/ChampagneGlass.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/ChampagneGlass.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Champagne Class <br> $10.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -368,7 +368,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/WaterBottle.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/WaterBottle.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Water Bottle <br> $14.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -380,7 +380,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/Tumbler.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/Tumbler.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Tumbler <br> $12.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -392,7 +392,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GoldysSpice.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GoldysSpice.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Goldys Spice Mix <br> $12.95</p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -404,7 +404,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/GreenThermos.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/GreenThermos.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Green Thermos <br>$16.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -416,7 +416,7 @@
             </div>
 
             <div class="col-md-3 col-10 position-relative d-flex justify-content-center my-4">
-                <img class="itemImage" src="src/assets/img/ShopImages/OrangeThermos.png" alt="">
+                <img class="itemImage" src="/img/ShopImages/OrangeThermos.png" alt="">
                 <p class="glassCard text-light p-2 text-center description-btn">Orange Thermos <br>$16.95 </p>
                 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick" />
@@ -540,36 +540,36 @@ export default {
 }
 
 .bground-img {
-    background-image: url(src/assets/img/WhiteParchment.png);
+    background-image: url(/img/WhiteParchment.png);
     background-position: center;
     background-size: cover;
     box-shadow: inset 0px 10px 10px rgb(93, 91, 91);
 }
 
 .blue-hat {
-    background-image: url(src/assets/img/ShopImages/BlueTruckerHat1.png);
+    background-image: url(/img/ShopImages/BlueTruckerHat1.png);
 }
 
 .blue-hat:hover {
-    background-image: url(src/assets/img/ShopImages/BlueTruckerHat2.png);
+    background-image: url(/img/ShopImages/BlueTruckerHat2.png);
     transition: ease-in-out 1s;
 }
 
 .gray-hat {
-    background-image: url(src/assets/img/ShopImages/GrayTruckerHat1.png);
+    background-image: url(/img/ShopImages/GrayTruckerHat1.png);
 }
 
 .gray-hat:hover {
-    background-image: url(src/assets/img/ShopImages/GrayTruckerHat2.png);
+    background-image: url(/img/ShopImages/GrayTruckerHat2.png);
     transition: ease-in-out 1s;
 }
 
 .dad-hat {
-    background-image: url(src/assets/img/ShopImages/DadHat1.png)
+    background-image: url(/img/ShopImages/DadHat1.png)
 }
 
 .dad-hat:hover {
-    background-image: url(src/assets/img/ShopImages/DadHat2.png);
+    background-image: url(/img/ShopImages/DadHat2.png);
     transition: ease-in-out 1s;
 }
 
