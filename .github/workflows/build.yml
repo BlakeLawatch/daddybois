@@ -13,6 +13,10 @@ jobs:
     - name: Checkout repository 👀
       uses: actions/checkout@v4
 
+    - name: Install Dependencies 📃
+      run: |
+        npm ci
+
     - name: Build the Client 🏗️
       run: |
         npm run build
