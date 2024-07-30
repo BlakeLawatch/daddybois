@@ -51,7 +51,7 @@ footer {
 }
 
 .background-image {
-  background-image: url('/img/ParchmentPaper.png');
+  background-image: url('/img/ParchmentPaper.jpg');
   background-size: cover;
   background-position: center;
 }
