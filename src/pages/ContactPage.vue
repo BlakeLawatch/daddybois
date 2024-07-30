@@ -100,6 +100,11 @@ export default {
   transition: ease-in-out .3s;
 }
 
+a:hover {
+  transform: translate(-10px, 0);
+  transition: ease-in-out .3s;
+}
+
 
 p {
   margin-bottom: 0;
@@ -154,44 +159,4 @@ form:valid button[type="submit"] {
     visibility: hidden;
   }
 }
-
-// button {
-//   animation: pulse 1s infinite;
-// }
-
-// button.log[data-state="valid"] {
-
-//   // background-color: #C9A243;
-//   @keyframes pulse {
-//     0% {
-//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 0 var(--bs-success);
-//     }
-
-//     40% {
-//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px var(--bs-success);
-//     }
-
-//     80% {
-//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 7px rgba(255, 4, 0, 0);
-//     }
-
-//     100% {
-//       box-shadow: 0 0 0 0 var(--bs-success), 0 0 0 3px rgba(255, 4, 0, 0);
-//     }
-//   }
-// }
-
-
-// @keyframes pulse {
-//   0% {
-//     transform: scale(1);
-//   }
-
-//   50% {
-//     transform: scale(1.05);
-//   }
-
-//   100% {
-//     transform: scale(1);
-//   }
-// }</style>
+</style>
