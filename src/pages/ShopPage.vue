@@ -193,6 +193,12 @@ export default {
   transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 767px) {
+  .itemImage {
+    width: 60dvh;
+  }
+}
+
 .itemImage:hover {
   box-shadow: 0px 0px 20px #2c2519;
   transform: scale(1.05);
