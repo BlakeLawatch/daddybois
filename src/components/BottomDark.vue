@@ -5,7 +5,10 @@
                 <p class="text-center text-color pb-0 pt-1">
                     625 W. Main St. | Boise, ID 83702 | P.208.433.3934
                     Copyright © 2024. All Rights Reserved.
-                    Website designed by Daddy Bois
+                    Website designed by <a href="https://www.linkedin.com/in/jacob-winfrey-a9a2a4280/" target="_blank"
+                        title="Go to Jake's Linkedin">Jake</a>
+                    & <a href="https://www.linkedin.com/in/blakelawatch/" target="_blank"
+                        title="Go to Blake's Linkedin">Blake</a>
                 </p>
             </div>
             <div class="col-12 col-md-4 d-flex justify-content-around align-items-center">
