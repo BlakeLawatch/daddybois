@@ -15,12 +15,12 @@ jobs:
 
     - name: Build the Client 🏗️
       run: |
-        npm run deploy
+        npm run build
 
     - name: Pushes to repo
       uses: cpina/github-action-push-to-another-repository@main
       env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
       with:
         source-directory: 'dist'
         destination-github-username: '${{ github.event.actor.login }}'
