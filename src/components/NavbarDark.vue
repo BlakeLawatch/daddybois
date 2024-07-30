@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-sm px-3 bg-img py-4">
         <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
             <div class="logo-space d-flex flex-column align-items-center">
-                <img alt="logo" class="logo" src="/img/NightLogo.png" />
+                <img alt="logo" class="logo" src="/img/NightLogo.jpg" />
                 <!-- <img alt="logo" class="logo" src="/img/NightLogoWhite.png" /> -->
             </div>
         </router-link>
