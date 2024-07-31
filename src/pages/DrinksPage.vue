@@ -67,12 +67,6 @@
       </div>
     </section>
   </div>
-  <div class="modal fade" id="latte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      </div>
-    </div>
-  </div>
   <Bottom />
 </template>
 

@@ -113,23 +113,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .itemImage {
-//   height: 40dvh;
-//   max-width: auto;
-//   background-size: cover;
-//   background-position: center;
-//   border-radius: 20px;
-//   box-shadow: 0px 0px 20px #423826;
-//   border: solid thick #00000082;
-//   overflow: hidden;
-//   transition: transform ease-in-out 1s;
-// }
-
-// .itemImage:hover {
-//   box-shadow: 0px 0px 20px #2c2519;
-//   transform: scale(1.05);
-// }
-
 .glassCard {
   background: #0f0f0f5a;
   border-radius: 16px;
@@ -184,19 +167,14 @@ export default {
 
 .itemImage {
   height: 40dvh;
-  width: 15dvw;
-  object-fit: cover;
+  max-width: auto;
+  background-size: cover;
+  background-position: center;
   border-radius: 20px;
   box-shadow: 0px 0px 20px #423826;
   border: solid thick #00000082;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-}
-
-@media (max-width: 767px) {
-  .itemImage {
-    width: 60dvh;
-  }
+  transition: transform ease-in-out 1s;
 }
 
 .itemImage:hover {
@@ -204,11 +182,21 @@ export default {
   transform: scale(1.05);
 }
 
-// .blue-hat {
-//     background-image: url(/img/ShopImages/BlueTruckerHat1.jpg);
-// }
 
-// .blue-hat:hover {
-//     background-image: url(/img/ShopImages/BlueTruckerHat2.jpg);
-//     transition: ease-in-out 1s;
-// }</style>
+@media (max-width: 767px) {
+  .itemImage {
+    width: 60dvh;
+  }
+}
+
+
+.blue-hat {
+  background-image: url(/img/ShopImages/BlueTruckerHat1.jpg);
+}
+
+.blue-hat:hover {
+  background-image: url(/img/ShopImages/BlueTruckerHat2.jpg);
+  transition: ease-in-out 1s;
+
+}
+</style>
