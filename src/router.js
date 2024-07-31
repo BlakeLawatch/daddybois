@@ -27,11 +27,6 @@ const routes = [
     component: loadPage('ShopPage')
   },
   {
-    path: '/shopblake',
-    name: 'ShopBlake',
-    component: loadPage('ShopPageBlake')
-  },
-  {
     path: '/nightmenu',
     name: 'NightMenu',
     component: loadPage('NightMenuPage'),

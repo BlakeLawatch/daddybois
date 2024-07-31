@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm px-3 bg-img py-4">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="logo-space d-flex flex-column align-items-center">
-        <img alt="logo" class="logo" src="/img/goldys_logo.png" title="Home Page" />
+        <img alt="logo" class="logo" src="/img/goldys_logo.jpg" title="Home Page" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -78,7 +78,7 @@ export default {
 
 <style scoped>
 .bg-img {
-  background-image: url(/img/Header-Gradient.png);
+  background-image: url(/img/Header-Gradient.jpg);
   background-position: center;
   background-size: cover;
 }

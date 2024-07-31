@@ -69,7 +69,7 @@ export default {
     const merchItems = ref([
       { id: 1, type: 'mugs', image: '/img/ShopImages/BrownMug.jpg', description: '16 oz Brown Mug', price: '$12.95', paypalButtonId: 'NYL23AU9VCWQ2' },
       { id: 2, type: 'mugs', image: '/img/ShopImages/DarkBlueMug.jpg', description: '16 oz Light Blue Mug', price: '$12.95', paypalButtonId: 'HTU5ZW7H9G64U' },
-      { id: 3, type: 'mugs', image: '/img/ShopImages/BlueMug.png', description: '16 oz Dark Blue Mug', price: '$12.95', paypalButtonId: 'UQNBC7PT47WYS' },
+      { id: 3, type: 'mugs', image: '/img/ShopImages/BlueMug.jpg', description: '16 oz Dark Blue Mug', price: '$12.95', paypalButtonId: 'UQNBC7PT47WYS' },
       { id: 4, type: 'mugs', image: '/img/ShopImages/ClearMug.jpg', jpgdescription: '12 oz Glass Mug', price: '$12.95', paypalButtonId: 'WURX3BPSWJJC4' },
       { id: 5, type: 'mugs', image: '/img/ShopImages/GreyOrangeMug.jpg', description: '16 oz Grey/Orange Mug', price: '$12.95', paypalButtonId: 'BLX9W78Q85NWS' },
       { id: 6, type: 'mugs', image: '/img/ShopImages/CornerMug.jpg', description: 'Goldys Corner 12 oz Mug', price: '$12.95', paypalButtonId: 'XLSA6UX2KH832' },
@@ -145,7 +145,7 @@ export default {
 }
 
 .bground-img {
-  background-image: url(/img/WhiteParchment.png);
+  background-image: url(/img/WhiteParchment.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: inset 0px 10px 10px rgb(93, 91, 91);
@@ -203,4 +203,12 @@ export default {
   box-shadow: 0px 0px 20px #2c2519;
   transform: scale(1.05);
 }
-</style>
+
+// .blue-hat {
+//     background-image: url(/img/ShopImages/BlueTruckerHat1.jpg);
+// }
+
+// .blue-hat:hover {
+//     background-image: url(/img/ShopImages/BlueTruckerHat2.jpg);
+//     transition: ease-in-out 1s;
+// }</style>

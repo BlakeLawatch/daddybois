@@ -52,7 +52,7 @@ export default {
       images: [
         { src: "/img/latte.jpg" },
         { src: "/img/outside.jpg" },
-        { src: "/img/food.png" }
+        { src: "/img/food.jpg" }
       ],
       paragraphIndex: 0,
       paragraphs: [
