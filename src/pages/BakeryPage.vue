@@ -2,16 +2,14 @@
   <Navbar />
   <div class="container-fluid background-image">
     <section class="row top-page">
-      <!-- <video autoplay muted loop id="myVideo">
-        <source src="" type="video/mp4">
-      </video> -->
       <div class="d-flex justify-content-center">
-        <iframe width="1155" height="650"
+        <iframe class="videos"
           src="https://www.youtube.com/embed/UGvsHQ55Kng?si=6hyjMkzFB3jyC8jx?rel=0&amp;autoplay=1&mute=1;&loop=1&list=PL0pkHXBEYrYtGm8Ssy4Ko61RBQyu_ry_n;"
           title="YouTube video player" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
 
       </div>
+      <!-- width="1155" height="650" -->
     </section>
     <section class="row mt-5 text-center" data-aos="zoom-in-down">
       <div class="col-12 col-md-4">
@@ -93,5 +91,16 @@ p {
   margin-bottom: 0;
   font-size: 22px;
   font-weight: 550;
+}
+
+.videos {
+  height: 90dvh;
+  width: 72.4dvw;
+}
+
+.videos:hover {
+  height: 28.6dvh;
+  width: 90dvw;
+
 }
 </style>
