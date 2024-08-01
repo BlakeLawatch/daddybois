@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm px-3 bg-img py-4">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="logo-space d-flex flex-column align-items-center">
-        <img alt="logo" class="logo" src="/img/goldys_logo.jpg" title="Home Page" />
+        <img alt="logo" class="logo" src="/img/GoldysLogo.png" title="Home Page" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -29,12 +29,6 @@
             Shop
           </router-link>
         </li>
-        <!-- <li>
-          <router-link :to="{ name: 'ShopBlake' }" class="btn border-side text-success select text-uppercase"
-            title="Shop Page">
-            ShopBlake
-          </router-link>
-        </li> -->
         <li>
           <router-link :to="{ name: 'NightMenu' }" class="btn border-side text-success select text-uppercase"
             title="Night Menu Page">
@@ -53,7 +47,7 @@
 </template>
 
 <script>
-import { computed, onMounted, ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { loadState, saveState } from '../utils/Store.js';
 export default {
   setup() {

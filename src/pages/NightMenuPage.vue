@@ -3,7 +3,7 @@
   <div class="container-fluid bg">
     <section class="row pt-5">
       <div class="col-12 text-center">
-        <img class="img-fluid" src="/img/Coming_Soon.jpg" alt="Coming Soon">
+        <img class="img-fluid" src="/img/Coming_Soon-Def.png" alt="Coming Soon">
       </div>
     </section>
   </div>
@@ -12,8 +12,6 @@
 
 
 <script>
-import { AppState } from '../AppState';
-import { computed, reactive, onMounted } from 'vue';
 export default {
   setup() {
     return {}
