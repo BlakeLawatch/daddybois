@@ -98,9 +98,8 @@ p {
   width: 72.4dvw;
 }
 
-.videos:hover {
-  height: 28.6dvh;
-  width: 90dvw;
+// .videos:hover {
+//   height: 28.6dvh;
+//   width: 90dvw;
 
-}
-</style>
+// }</style>
