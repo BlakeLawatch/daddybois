@@ -98,8 +98,11 @@ p {
   width: 72.4dvw;
 }
 
-// .videos:hover {
-//   height: 28.6dvh;
-//   width: 90dvw;
+@media(max-width: 767px) {
+  .videos {
+    height: 28.6dvh;
+    width: 90dvw;
 
-// }</style>
+  }
+}
+</style>

@@ -59,11 +59,11 @@
     </section>
     <section class="map row">
       <div class="col-md-12">
-        <iframe
+        <iframe class="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.6032483017666!2d-116.20486968824567!3d43.61480187098345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8e4c7e7821b%3A0xaddfc950248b7a8e!2sGoldy&#39;s%20Corner!5e0!3m2!1sen!2sus!4v1717523772689!5m2!1sen!2sus"
-          width="1500" height="450" style="border:0;" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+      <!-- width="1500" height="450" -->
     </section>
 
   </div>
@@ -154,9 +154,17 @@ form:valid button[type="submit"] {
 
 }
 
+.map {
+  height: 70dvh;
+  width: 97dvw;
+  padding-bottom: 2rem;
+}
+
 @media (max-width: 767px) {
   .map {
-    visibility: hidden;
+    height: 60dvh;
+    width: 94dvw;
   }
+
 }
 </style>
