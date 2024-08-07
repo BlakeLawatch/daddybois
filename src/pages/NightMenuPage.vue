@@ -3,7 +3,7 @@
   <div class="container-fluid bg">
     <section class="row pt-5">
       <div class="col-12 text-center">
-        <img class="img-fluid" src="/img/Coming_Soon-Def.png" alt="Coming Soon">
+        <img class="img-fluid" src="/img/Coming_Soon-Def.webp" alt="Coming Soon">
       </div>
     </section>
   </div>
