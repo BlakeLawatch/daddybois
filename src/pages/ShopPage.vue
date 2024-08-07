@@ -70,7 +70,7 @@ export default {
       { id: 1, type: 'mugs', image: '/img/ShopImages/BrownMug.jpg', description: '16 oz Brown Mug', price: '$12.95', paypalButtonId: 'NYL23AU9VCWQ2' },
       { id: 2, type: 'mugs', image: '/img/ShopImages/DarkBlueMug.jpg', description: '16 oz Light Blue Mug', price: '$12.95', paypalButtonId: 'HTU5ZW7H9G64U' },
       { id: 3, type: 'mugs', image: '/img/ShopImages/BlueMug.jpg', description: '16 oz Dark Blue Mug', price: '$12.95', paypalButtonId: 'UQNBC7PT47WYS' },
-      { id: 4, type: 'mugs', image: '/img/ShopImages/ClearMug.jpg', jpgdescription: '12 oz Glass Mug', price: '$12.95', paypalButtonId: 'WURX3BPSWJJC4' },
+      { id: 4, type: 'mugs', image: '/img/ShopImages/ClearMug.jpg', description: '12 oz Glass Mug', price: '$12.95', paypalButtonId: 'WURX3BPSWJJC4' },
       { id: 5, type: 'mugs', image: '/img/ShopImages/GreyOrangeMug.jpg', description: '16 oz Grey/Orange Mug', price: '$12.95', paypalButtonId: 'BLX9W78Q85NWS' },
       { id: 6, type: 'mugs', image: '/img/ShopImages/CornerMug.jpg', description: 'Goldys Corner 12 oz Mug', price: '$12.95', paypalButtonId: 'XLSA6UX2KH832' },
       { id: 7, type: 'coffee', image: '/img/ShopImages/GroundCoffeeBeans.jpg', description: 'Dawson Taylor Ground Coffee', price: '$15.95', paypalButtonId: 'TJ63CA4FWK54Q' },
