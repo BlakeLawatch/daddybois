@@ -26,15 +26,17 @@
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control rounded" name="name" id="name" aria-describedby="name" required
-                  minlength="5" maxlength="25">
+                  minlength="2" maxlength="25">
               </div>
             </div>
             <div class="col-6">
               <div class="mb-3">
                 <label for="subject" class="form-label">Subject</label>
-                <select id="subject" class="w-100 py-1 rounded">
-                  <option name="subject" :value="subjects" v-for="subject in subjects" :key="subject">{{ subject }}
-                  </option>
+                <select name="subject" class="w-100 py-1 rounded">
+                  <option value="" hidden></option>
+                  <option value="Jobs">Jobs</option>
+                  <option value="Catering">Catering</option>
+                  <option value="Art">Art</option>
                 </select>
               </div>
             </div>
@@ -75,11 +77,8 @@
 
 export default {
   setup() {
-    const subjects = ["Catering", "Jobs", "Art", "Other"]
 
     return {
-      subjects,
-
     }
   }
 };
