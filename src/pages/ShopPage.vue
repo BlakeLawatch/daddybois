@@ -68,14 +68,14 @@ export default {
     const merchTypes = ['mugs', 'shirts', 'coffee', 'hats', 'misc'];
     const merchItems = ref([
       { id: 1, type: 'mugs', image: '/img/ShopImages/BrownMug.jpg', description: '16 oz Brown Mug', price: '$12.95', paypalButtonId: 'NYL23AU9VCWQ2' },
-      { id: 2, type: 'mugs', image: '/img/ShopImages/DarkBlueMug.jpg', description: '16 oz Light Blue Mug', price: '$12.95', paypalButtonId: 'HTU5ZW7H9G64U' },
-      { id: 3, type: 'mugs', image: '/img/ShopImages/BlueMug.jpg', description: '16 oz Dark Blue Mug', price: '$12.95', paypalButtonId: 'UQNBC7PT47WYS' },
+      { id: 2, type: 'mugs', image: '/img/ShopImages/DarkBlueMug.webp', description: '16 oz Light Blue Mug', price: '$12.95', paypalButtonId: 'HTU5ZW7H9G64U' },
+      { id: 3, type: 'mugs', image: '/img/ShopImages/BlueMug.webp', description: '16 oz Dark Blue Mug', price: '$12.95', paypalButtonId: 'UQNBC7PT47WYS' },
       { id: 4, type: 'mugs', image: '/img/ShopImages/ClearMug.jpg', description: '12 oz Glass Mug', price: '$12.95', paypalButtonId: 'WURX3BPSWJJC4' },
       { id: 5, type: 'mugs', image: '/img/ShopImages/GreyOrangeMug.jpg', description: '16 oz Grey/Orange Mug', price: '$12.95', paypalButtonId: 'BLX9W78Q85NWS' },
       { id: 6, type: 'mugs', image: '/img/ShopImages/CornerMug.jpg', description: 'Goldys Corner 12 oz Mug', price: '$12.95', paypalButtonId: 'XLSA6UX2KH832' },
       { id: 7, type: 'coffee', image: '/img/ShopImages/GroundCoffeeBeans.jpg', description: 'Dawson Taylor Ground Coffee', price: '$15.95', paypalButtonId: 'TJ63CA4FWK54Q' },
       { id: 8, type: 'coffee', image: '/img/ShopImages/WholeCoffeeBeans.jpg', description: 'Dawson Taylor Whole Coffee Beans', price: '$15.95', paypalButtonId: '5VTDUAGXCCW8G' },
-      { id: 9, type: 'hats', image: '/img/ShopImages/Beanie.jpg', description: 'Black Beanie', price: '$18.95', paypalButtonId: 'LJJ4E24V9Y7XQ' },
+      { id: 9, type: 'hats', image: '/img/ShopImages/Beanie.webp', description: 'Black Beanie', price: '$18.95', paypalButtonId: 'LJJ4E24V9Y7XQ' },
       // { id: 10, type: 'misc', image: '/img/ShopImages/Chapstick.jpg', description: 'Goldys Chap Stick', price: '$2.00', paypalButtonId: 'JR37TTV8MXRBU' },
       { id: 10, type: 'misc', image: '/img/ShopImages/GiftCard.jpg', description: 'Gift Card, works at restaurant and corner', price: '$2.00', paypalButtonId: 'KKWVD7WUR2RRL' },
       { id: 11, type: 'misc', image: '/img/ShopImages/ChampagneGlass.jpg', description: 'Champagne Glass', price: '$10.95', paypalButtonId: 'RUYB6NBTEL77E' },

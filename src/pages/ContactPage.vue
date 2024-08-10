@@ -37,6 +37,7 @@
                   <option value="Jobs">Jobs</option>
                   <option value="Catering">Catering</option>
                   <option value="Art">Art</option>
+                  <option value="Other">Other</option>
                 </select>
               </div>
             </div>
