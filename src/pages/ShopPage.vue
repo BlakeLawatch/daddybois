@@ -84,7 +84,7 @@ export default {
       { id: 14, type: 'misc', image: '/img/ShopImages/GoldysSpice.jpg', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
       { id: 15, type: 'misc', image: '/img/ShopImages/GreenThermos.jpg', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
       { id: 16, type: 'misc', image: '/img/ShopImages/OrangeThermos.webp', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
-      { id: 17, type: 'hats', image: '/img/ShopImages/BlueTruckerHat1.jpg', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
+      { id: 17, type: 'hats', image: '/img/ShopImages/BlueTruckerHat1.webp', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
       { id: 18, type: 'hats', image: '/img/ShopImages/GrayTruckerHat1.jpg', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
       { id: 19, type: 'hats', image: '/img/ShopImages/DadHat1.jpg', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' },
       { id: 20, type: 'shirts', image: '/img/ShopImages/GrayWomansShirt.webp', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
