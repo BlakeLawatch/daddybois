@@ -83,7 +83,7 @@ export default {
       { id: 13, type: 'misc', image: '/img/ShopImages/Tumbler.jpg', description: 'Tumbler', price: '12.95', paypalButtonId: 'EKAQYT99LPJCC' },
       { id: 14, type: 'misc', image: '/img/ShopImages/GoldysSpice.jpg', description: 'Goldys Spice Mix', price: '$12.95', paypalButtonId: '9KMJJ33MBQ87A' },
       { id: 15, type: 'misc', image: '/img/ShopImages/GreenThermos.jpg', description: 'Green Thermos', price: '$16.95', paypalButtonId: '7QWGY7NKFF3CA' },
-      { id: 16, type: 'misc', image: '/img/ShopImages/OrangeThermos.jpg', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
+      { id: 16, type: 'misc', image: '/img/ShopImages/OrangeThermos.webp', description: 'Orange Thermos', price: '$16.95', paypalButtonId: '29CM3AUGAJ56J' },
       { id: 17, type: 'hats', image: '/img/ShopImages/BlueTruckerHat1.jpg', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
       { id: 18, type: 'hats', image: '/img/ShopImages/GrayTruckerHat1.jpg', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
       { id: 19, type: 'hats', image: '/img/ShopImages/DadHat1.jpg', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' },
@@ -91,7 +91,7 @@ export default {
       { id: 21, type: 'shirts', image: '/img/ShopImages/PinkWomansShirt.jpg', description: 'Pink Woman\'s Shirt', price: '$23.95', paypalButtonId: '64ADW4AD65ZNN', size: 's' },
       { id: 22, type: 'shirts', image: '/img/ShopImages/PurpleWomansShirt.jpg', description: 'Purple Woman\'s Shirt', price: '$23.95', paypalButtonId: 'SUEZXHWCKV7QU', size: 's' },
       { id: 23, type: 'shirts', image: '/img/ShopImages/GrayMensShirt.jpg', description: 'Gray Men\'s Shirt', price: '$23.95', paypalButtonId: 'H6X469CYDMU4G', size: 's' },
-      { id: 24, type: 'shirts', image: '/img/ShopImages/BlueMensShirt.jpg', description: 'Blue Men\'s Shirt', price: '$23.95', paypalButtonId: 'ZJEFZGRS4REU8', size: 's' },
+      { id: 24, type: 'shirts', image: '/img/ShopImages/BlueMensShirt.webp', description: 'Blue Men\'s Shirt', price: '$23.95', paypalButtonId: 'ZJEFZGRS4REU8', size: 's' },
     ]);
     const filteredMerch = ref(merchItems.value);
 
