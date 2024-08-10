@@ -132,7 +132,7 @@ export default {
 // }
 
 .bground-img {
-  background-image: url(/img/WhiteParchment.jpg);
+  background-image: url(/img/WhiteParchment.webp);
   background-position: center;
   background-size: cover;
   box-shadow: inset 0px 10px 10px rgb(93, 91, 91);

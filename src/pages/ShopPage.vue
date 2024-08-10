@@ -87,7 +87,7 @@ export default {
       { id: 17, type: 'hats', image: '/img/ShopImages/BlueTruckerHat1.jpg', description: 'Blue Trucker Hat', price: '$25.95', paypalButtonId: 'AG5UKR4WFEDUA' },
       { id: 18, type: 'hats', image: '/img/ShopImages/GrayTruckerHat1.jpg', description: 'Gray Trucker Hat', price: '$25.95', paypalButtonId: 'SH47SZ86B7X22' },
       { id: 19, type: 'hats', image: '/img/ShopImages/DadHat1.jpg', description: 'Yellow Dad Hat', price: '$25.95', paypalButtonId: '8AJ4LRC47B3XW' },
-      { id: 20, type: 'shirts', image: '/img/ShopImages/GrayWomansShirt.jpg', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
+      { id: 20, type: 'shirts', image: '/img/ShopImages/GrayWomansShirt.webp', description: 'Gray Woman\'s Shirt', price: '$23.95', paypalButtonId: '8ZJTRRMD9NRRE', size: 's' },
       { id: 21, type: 'shirts', image: '/img/ShopImages/PinkWomansShirt.jpg', description: 'Pink Woman\'s Shirt', price: '$23.95', paypalButtonId: '64ADW4AD65ZNN', size: 's' },
       { id: 22, type: 'shirts', image: '/img/ShopImages/PurpleWomansShirt.jpg', description: 'Purple Woman\'s Shirt', price: '$23.95', paypalButtonId: 'SUEZXHWCKV7QU', size: 's' },
       { id: 23, type: 'shirts', image: '/img/ShopImages/GrayMensShirt.jpg', description: 'Gray Men\'s Shirt', price: '$23.95', paypalButtonId: 'H6X469CYDMU4G', size: 's' },
@@ -126,15 +126,6 @@ export default {
   position: absolute;
   bottom: 50px;
 }
-
-.bground-img {
-  background-image: url(/img/WhiteParchment.jpg);
-  background-position: center;
-  background-size: cover;
-  box-shadow: inset 0px 10px 10px rgb(93, 91, 91);
-}
-
-
 
 .filter-buttons {
   height: 6dvh;
