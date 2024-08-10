@@ -82,7 +82,7 @@ export default {
       imageIndex: 0,
       images: [
         { src: "/img/Mimosa.jpg" },
-        { src: "/img/Latte.jpg" },
+        { src: "/img/DrinkFoodCombo.webp" },
         { src: "/img/Cases.jpg" }
       ],
       textIndex: 0,
