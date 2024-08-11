@@ -51,7 +51,7 @@
             </div>
             <div class="mb-3">
               <label for="description" class="form-label">Description</label>
-              <textarea name="description" id="description" cols="80" rows="5" required minlength="10"
+              <textarea name="description" id="description" cols="102" rows="5" required minlength="10"
                 maxlength="200"></textarea>
             </div>
 
