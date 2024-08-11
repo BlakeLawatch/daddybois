@@ -88,7 +88,7 @@ export default {
 }
 
 .logo {
-  height: 25vh;
+  height: 22vh;
   width: auto;
   filter: drop-shadow(2px 2px 2px #200606);
 }
@@ -98,9 +98,17 @@ export default {
     height: 15vh;
     width: auto;
     filter: drop-shadow(2px 2px 2px #200606);
-
   }
 }
+
+@media(min-width: 1600px) {
+  .logo {
+    height: 17vh;
+    width: auto;
+    filter: drop-shadow(2px 2px 2px #200606);
+  }
+}
+
 
 a:hover {
   text-decoration: none;
