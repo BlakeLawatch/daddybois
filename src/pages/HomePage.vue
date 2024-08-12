@@ -44,13 +44,15 @@
   <div class="container-fluid">
     <section class="row bground-img justify-content-around py-5">
       <div class="col-10 col-md-6 d-flex align-items-center">
-        <p class="fs-5 arima" data-aos="fade-right"><b>Welcome to Goldy's Corner!</b> Where you'll find a leisure place
+        <p class="fs-5 arima" data-aos="fade-right"><b>Welcome to Goldy's Corner!</b> A downtown bakery where you'll
+          find a leisure place
           to study, hang out
           with
           family
-          or friends,
+          and friends,
           have a
-          work meeting, work out of the office or enjoy the downtown scene. We have proudly serve locally owned Dawson
+          work meeting, work out of the office, or enjoy the downtown scene. We have proudly served locally owned
+          Dawson
           Taylor coffee since day one. We provide a variety of homemade treats, drinks, and promote
           local artists and vendors. Local artwork is always on display.
           Thanks for stopping by!</p>
@@ -94,8 +96,8 @@ export default {
       paragraphIndex: 0,
       paragraphs: [
         "We offer one of the best happy hours in town! Come in everyday from 5:00pm - 9:00pm for half off any of our award winning mimosas and $1 off any other drink",
-        "We take pride in our locally sourced ingredients used in all of our products.",
-        "Freshly baked goods daily made by our own in house baker."
+        "We take pride in our locally sourced ingredients used in all of our products",
+        "Freshly baked goods daily made by our own in house baker"
       ]
     };
   },
