@@ -103,15 +103,13 @@ p {
   .videos {
     height: 28.6dvh;
     width: 90dvw;
-
   }
 }
 
 @media(min-width: 1600px) {
   .videos {
     height: 80dvh;
-    width: 76.4dvw;
-
+    width: auto;
   }
 }
 </style>
